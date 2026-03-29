@@ -18,10 +18,10 @@ export function ProjectsIllustration({ className = "" }: { className?: string })
     >
       <defs>
         <linearGradient id="proj-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#6366f1" stopOpacity="0" />
-          <stop offset="30%" stopColor="#6366f1" />
-          <stop offset="70%" stopColor="#22d3ee" />
-          <stop offset="100%" stopColor="#22d3ee" stopOpacity="0" />
+          <stop offset="0%" stopColor="#eab308" stopOpacity="0" />
+          <stop offset="30%" stopColor="#eab308" />
+          <stop offset="70%" stopColor="#fde68a" />
+          <stop offset="100%" stopColor="#fde68a" stopOpacity="0" />
         </linearGradient>
       </defs>
 
@@ -43,7 +43,7 @@ export function ProjectsIllustration({ className = "" }: { className?: string })
       {/* Secondary path */}
       <Path
         d="M40 80 L120 80 L140 60 L200 60"
-        stroke="#6366f1"
+        stroke="#eab308"
         strokeWidth="0.5"
         strokeOpacity="0.15"
         fill="none"
@@ -56,7 +56,7 @@ export function ProjectsIllustration({ className = "" }: { className?: string })
       />
       <Path
         d="M200 60 L260 60 L280 40 L360 40"
-        stroke="#22d3ee"
+        stroke="#fde68a"
         strokeWidth="0.5"
         strokeOpacity="0.15"
         fill="none"
@@ -81,8 +81,8 @@ export function ProjectsIllustration({ className = "" }: { className?: string })
           cx={n.cx}
           cy={n.cy}
           r="3"
-          fill="#12121a"
-          stroke="#6366f1"
+          fill="#1a1a24"
+          stroke="#eab308"
           strokeOpacity="0.5"
           strokeWidth="0.75"
           {...(!prefersReducedMotion && {
@@ -98,7 +98,7 @@ export function ProjectsIllustration({ className = "" }: { className?: string })
       {!prefersReducedMotion && (
         <motion.circle
           r="2"
-          fill="#22d3ee"
+          fill="#fde68a"
           opacity={0.8}
           animate={{
             cx: [0, 80, 100, 160, 180, 220, 240, 300, 320, 400],

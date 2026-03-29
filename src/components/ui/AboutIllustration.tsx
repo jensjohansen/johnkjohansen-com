@@ -26,12 +26,12 @@ export function AboutIllustration({ className = "" }: { className?: string }) {
     >
       <defs>
         <linearGradient id="about-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#6366f1" />
-          <stop offset="100%" stopColor="#22d3ee" />
+          <stop offset="0%" stopColor="#fde68a" />
+          <stop offset="100%" stopColor="#eab308" />
         </linearGradient>
         <linearGradient id="about-grad-v" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stopColor="#6366f1" stopOpacity="0.4" />
-          <stop offset="100%" stopColor="#22d3ee" stopOpacity="0.1" />
+          <stop offset="0%" stopColor="#eab308" stopOpacity="0.4" />
+          <stop offset="100%" stopColor="#fde68a" stopOpacity="0.1" />
         </linearGradient>
       </defs>
 
@@ -44,7 +44,7 @@ export function AboutIllustration({ className = "" }: { className?: string }) {
           width={layer.width}
           height={44}
           rx={8}
-          fill="#12121a"
+          fill="#1a1a24"
           stroke="url(#about-grad)"
           strokeOpacity={layer.opacity * 0.4}
           strokeWidth={1}
@@ -66,7 +66,7 @@ export function AboutIllustration({ className = "" }: { className?: string }) {
           textAnchor="middle"
           className="font-mono"
           fontSize={11}
-          fill="#6366f1"
+          fill="#eab308"
           fillOpacity={layer.opacity}
         >
           {layer.label}
@@ -98,7 +98,7 @@ export function AboutIllustration({ className = "" }: { className?: string }) {
           cx={180}
           cy={layers[i].y + 50}
           r={2}
-          fill="#22d3ee"
+          fill="#fde68a"
           {...(!prefersReducedMotion && {
             animate: {
               cy: [layers[i].y + 44, layers[i + 1].y],
@@ -128,7 +128,7 @@ export function AboutIllustration({ className = "" }: { className?: string }) {
           cx={n.cx}
           cy={n.cy}
           r={n.r}
-          fill="#6366f1"
+          fill="#eab308"
           fillOpacity={0.4}
           {...(!prefersReducedMotion && {
             initial: { opacity: 0, scale: 0 },
@@ -149,7 +149,7 @@ export function AboutIllustration({ className = "" }: { className?: string }) {
         <path
           key={`side-line-${i}`}
           d={d}
-          stroke="#6366f1"
+          stroke="#eab308"
           strokeOpacity={0.15}
           strokeWidth={0.5}
         />
