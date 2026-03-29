@@ -29,13 +29,20 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        {/* Monogram */}
+        {/* Logo and Brand */}
         <a
           href="#"
-          className="font-mono text-lg font-bold tracking-tight text-foreground transition-colors hover:text-accent"
-          aria-label="Back to top"
+          className="flex items-center gap-3 transition-transform hover:scale-[1.02]"
+          aria-label="Johansen AI Solutions - Back to top"
         >
-          JKJ
+          <img
+            src="/logo-icon.png"
+            alt="Johansen AI Logo"
+            className="h-8 w-8 object-contain brightness-110 grayscale-0 contrast-125"
+          />
+          <span className="font-sans text-lg font-bold tracking-tight bg-gradient-to-r from-accent-gold to-accent bg-clip-text text-transparent">
+            Johansen AI Solutions
+          </span>
         </a>
 
         {/* Desktop nav */}
