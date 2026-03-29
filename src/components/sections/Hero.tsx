@@ -48,22 +48,22 @@ export function Hero() {
 
         {/* CTAs */}
         <AnimatedText delay={0.6}>
-          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start">
+          <div className="mt-10 flex flex-wrap items-center gap-4 justify-center lg:justify-start">
+            <a
+              href={HERO.ctaThird.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-accent to-accent-cyan px-6 py-3 font-semibold text-white transition-all hover:scale-[1.02] hover:shadow-lg hover:shadow-accent/20"
+            >
+              {HERO.ctaThird.label}
+              <ExternalLink className="h-4 w-4" />
+            </a>
             <a
               href={HERO.ctaPrimary.href}
-              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-accent to-accent-cyan px-6 py-3 font-medium text-white transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-xl border border-card-border bg-card/50 px-6 py-3 font-medium text-foreground transition-colors hover:border-accent/40 hover:text-accent"
             >
               {HERO.ctaPrimary.label}
               <ArrowDown className="h-4 w-4" />
-            </a>
-            <a
-              href={HERO.ctaSecondary.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border border-card-border px-6 py-3 font-medium text-foreground transition-colors hover:border-accent/40 hover:text-accent"
-            >
-              {HERO.ctaSecondary.label}
-              <ExternalLink className="h-4 w-4" />
             </a>
           </div>
         </AnimatedText>

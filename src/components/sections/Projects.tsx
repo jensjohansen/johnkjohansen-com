@@ -33,11 +33,18 @@ export function Projects() {
                   </Badge>
                 </div>
 
-                <p className="mb-4 flex-1 text-sm leading-relaxed text-muted">
+                <p className="mb-4 text-sm leading-relaxed text-muted">
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap items-center gap-2">
+                {project.impact && (
+                  <div className="mb-4 rounded-lg bg-accent/5 p-3 border border-accent/10">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-accent-cyan">Impact</p>
+                    <p className="text-sm text-foreground/90">{project.impact}</p>
+                  </div>
+                )}
+
+                <div className="mt-auto flex flex-wrap items-center gap-2">
                   {project.tags.map((tag) => (
                     <Badge key={tag}>{tag}</Badge>
                   ))}
