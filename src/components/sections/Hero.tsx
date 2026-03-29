@@ -12,8 +12,9 @@ export function Hero() {
       id="hero"
       className="relative flex min-h-screen items-center justify-center overflow-hidden px-6"
     >
-      {/* Background orbs */}
+      {/* Background orbs & AI Image */}
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
+        <div className="absolute inset-0 z-0 opacity-20 bg-[url('/hero-bg.png')] bg-cover bg-center grayscale contrast-125 mix-blend-screen" />
         <div className="orb orb-1" />
         <div className="orb orb-2" />
         <div className="orb orb-3" />
