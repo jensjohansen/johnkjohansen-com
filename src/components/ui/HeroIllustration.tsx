@@ -40,12 +40,12 @@ export function HeroIllustration({ className = "" }: { className?: string }) {
     >
       <defs>
         <linearGradient id="hero-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#6366f1" />
-          <stop offset="100%" stopColor="#22d3ee" />
+          <stop offset="0%" stopColor="#fde68a" />
+          <stop offset="100%" stopColor="#eab308" />
         </linearGradient>
         <radialGradient id="node-glow">
-          <stop offset="0%" stopColor="#6366f1" stopOpacity="0.6" />
-          <stop offset="100%" stopColor="#6366f1" stopOpacity="0" />
+          <stop offset="0%" stopColor="#eab308" stopOpacity="0.6" />
+          <stop offset="100%" stopColor="#eab308" stopOpacity="0" />
         </radialGradient>
         <filter id="hero-blur">
           <feGaussianBlur stdDeviation="2" />
@@ -103,7 +103,7 @@ export function HeroIllustration({ className = "" }: { className?: string }) {
               cx={node.cx}
               cy={node.cy}
               r={node.r}
-              fill={isCenter ? "url(#hero-grad)" : "#6366f1"}
+              fill={isCenter ? "url(#hero-grad)" : "#eab308"}
               opacity={isCenter ? 1 : 0.6}
             />
             {/* Inner dot for center */}
