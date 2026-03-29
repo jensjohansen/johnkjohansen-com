@@ -132,7 +132,18 @@ export const PROJECTS: Project[] = [
     featured: true,
   },
   {
-    title: "ryzen_monitoring",
+    title: "Kaigents",
+    description: "Cloud-native, local-first AI Agents builder and execution platform designed for privacy and high performance.",
+    impact: "Empowers small teams to deploy secure, private AI agent swarms on commodity hardware.",
+    tags: ["Rust", "AI Agents", "Cloud-Native", "Privacy"],
+    status: "Active",
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/jensjohansen/kaigents",
+    },
+  },
+  {
+    title: "AMD Ryzen Monitoring in Linux",
     description:
       "High-performance Rust CLI tool for real-time AMD Ryzen AI NPU telemetry and AI workload optimization.",
     impact: "Enables hardware-aware AI workload scaling for edge and local processing.",
