@@ -22,7 +22,7 @@ export const SOCIAL_LINKS = {
 
 // ── Hero ────────────────────────────────────────────────────
 export const HERO = {
-  monoLabel: "// software architect & tech executive",
+  monoLabel: "// technical fellow & solutions architect",
   headingPrefix: "Building ",
   headingGradient: "AI Agents",
   headingSuffix: " That Let Small Teams Do Big Things",
@@ -38,7 +38,7 @@ export const ABOUT = {
   narrative: [
     "I'm a hands-on product and engineering executive with over four decades of experience building software systems — from bare-metal infrastructure to cloud-native platforms to AI-powered automation. My career spans enterprise architecture, startup CTO roles, and engineering leadership across fintech, e-commerce, and developer tools.",
     "I've built and led globally distributed, 100% remote engineering organizations, and I'm a strong believer that the best teams are built on mentorship, trust, and asking the right questions — not micromanagement.",
-    "These days, I'm focused on the intersection of AI agents and startup efficiency. I believe small, well-tooled teams can outperform organizations ten times their size when they leverage intelligent automation strategically.",
+    "These days, I'm focused on the intersection of AI agents and startup efficiency. I believe small, well-tooled teams can outperform organizations ten times their size when they leverage intelligent automation strategically. This conviction led me to build Kaigents, a production-grade substrate for operating AI agent teams in complex enterprise environments.",
     "Based in Pasadena, California, I work with founders and engineering teams to design and build AI agent systems that handle the work of entire departments — letting humans focus on the creative, strategic work that actually moves the needle.",
   ],
   quickFacts: {
@@ -48,8 +48,8 @@ export const ABOUT = {
     programmingLanguages: [
       { name: "TypeScript", proficiency: 95 },
       { name: "Python", proficiency: 90 },
-      { name: "Rust", proficiency: 75 },
-      { name: "Go", proficiency: 70 },
+      { name: "Rust", proficiency: 85 },
+      { name: "Go", proficiency: 80 },
     ],
     spokenLanguages: [
       { name: "English", level: "Native" },
@@ -123,6 +123,28 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    title: "TeamKnowl",
+    description:
+      "A Kubernetes-native, Git-driven knowledge base platform. Features an Obsidian-like experience with sharded indexing and S3-compatible storage (CEPH) for AI + Human teams.",
+    impact: "Enables horizontally scalable, self-healing shared memory for autonomous AI agents and engineering teams.",
+    tags: ["Go", "Kubernetes Operator", "S3/CEPH", "React"],
+    status: "Active",
+    featured: true,
+  },
+  {
+    title: "CodeKnowl",
+    description:
+      "On-prem, local-first codebase analyst that provides a structured relationship store and knowledge base for high-parallelism AI agent workflows.",
+    impact: "Provides deep codebase understanding with citations, enabling AI agents to reason accurately about complex systems.",
+    tags: ["Rust", "Python", "Graph DB", "AI Agents"],
+    status: "Active",
+    featured: true,
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/jensjohansen/codeknowl",
+    },
+  },
+  {
     title: "AI Agents for Startup Automation",
     description:
       "A suite of autonomous agents handling operational workflows from customer support triage to internal knowledge management.",
@@ -133,10 +155,11 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Kaigents",
-    description: "Cloud-native, local-first AI Agents builder and execution platform designed for privacy and high performance.",
-    impact: "Empowers small teams to deploy secure, private AI agent swarms on commodity hardware.",
-    tags: ["Rust", "AI Agents", "Cloud-Native", "Privacy"],
+    description: "A production-grade, Kubernetes-native substrate for operating AI agent teams. Built for low TCO on AMD Ryzen AI hardware with durable execution via Temporal.",
+    impact: "Provides the enterprise-grade visibility, durability, and governance needed to move AI agents from prototype to production at scale.",
+    tags: ["Rust", "Go", "Temporal", "Kubernetes", "AI Agents"],
     status: "Active",
+    featured: true,
     link: {
       label: "View on GitHub",
       href: "https://github.com/jensjohansen/kaigents",
@@ -151,7 +174,7 @@ export const PROJECTS: Project[] = [
     status: "Active",
     link: {
       label: "View on GitHub",
-      href: "https://github.com/jensjohansen/ryzen_monitoring",
+      href: "https://github.com/jensjohansen/ryzen_monitoring_linux",
     },
   },
   {

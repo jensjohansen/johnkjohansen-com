@@ -20,19 +20,19 @@ Hands-on software architect and engineering executive with 40+ years of experien
 
 ## **Professional Experience**
 
-### **VP of Software Development | Link Labs**
+### **VP of Software Development | Solutions Architect | Link Labs**
 *May 2022 – Present | Pasadena, CA / Remote*
 - Directing engineering strategy and architecture for a leader in IoT asset tracking.
 - Orchestrating the integration of Generative AI and autonomous agents into core product workflows.
 - Managing the transition to scalable, high-availability infrastructure for thousands of connected devices.
 
-### **VP of Engineering | Devfactory (ESW Capital Company)**
+### **VP of Engineering | Solutions Architect | Devfactory (ESW Capital Company)**
 *Mar 2018 – May 2022 | Global / 100% Remote*
 - Managed 20+ VPs of Technical Product Management across a portfolio of 80+ acquired startups.
 - Developed a LEAN/factory approach to product specs and engineering, achieving 50% profit margins.
 - Built centralized global teams and automation to take over Sales, Finance, and SaaS Ops for acquisitions, reducing TCO by 40% in 90 days.
 
-### **VP of Product Development | Green Dot Corporation**
+### **VP of Product Development | Technical Fellow | Green Dot Corporation**
 *Jul 2013 – Dec 2016 | Pasadena, CA*
 - Built the technical product team that transformed Green Dot from a bank into a technology company.
 - Delivered a new platform to replace legacy monoliths with high-availability microservices.
