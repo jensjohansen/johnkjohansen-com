@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS } from "@/lib/constants";
 
@@ -30,10 +31,10 @@ export function Header() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         {/* Logo and Brand */}
-        <a
-          href="#"
+        <Link
+          href="/"
           className="flex items-center gap-3 transition-transform hover:scale-[1.02]"
-          aria-label="Johansen AI Solutions - Back to top"
+          aria-label="Johansen AI Solutions - Home"
         >
           <img
             src="/logo-icon.png"
@@ -43,18 +44,18 @@ export function Header() {
           <span className="font-sans text-lg font-bold tracking-tight bg-gradient-to-r from-accent-gold to-accent bg-clip-text text-transparent">
             Johansen AI Solutions
           </span>
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
           {NAV_LINKS.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="text-sm text-muted transition-colors hover:text-foreground"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -77,14 +78,14 @@ export function Header() {
             aria-label="Mobile"
           >
             {NAV_LINKS.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-2xl font-medium text-foreground transition-colors hover:text-accent"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>

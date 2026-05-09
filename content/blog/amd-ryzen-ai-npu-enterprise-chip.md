@@ -4,7 +4,7 @@ subtitle: "Why the future of 'Silicon Sovereignty' isn't a massive GPU rack"
 date: "2026-02-05"
 excerpt: "In 2024, if you wanted production-grade AI, you rented an H100. In early 2026, we discovered that the enterprise-grade AI hardware we actually needed was already hiding in our mini-PCs. The AMD Ryzen AI NPU changed the math for local inference."
 tags: ["Self-Hosted AI", "AMD", "Ryzen AI", "Hardware", "Silicon Sovereignty"]
-featured: false
+featured: true
 author: "John K. Johansen"
 ---
 

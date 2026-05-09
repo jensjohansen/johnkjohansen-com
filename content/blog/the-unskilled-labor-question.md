@@ -1,8 +1,11 @@
 ---
 title: "The Unskilled Labor Question: What AI Automation Means for the People Nobody's Talking About"
+subtitle: "MindTheStore.ai: Building dignified income streams in an automated world"
 date: "2026-02-27"
 description: "Exploring the social impact of AI automation on unskilled labor and the MindTheStore.ai mission to create dignified income streams."
 tags: ["AI Ethics", "Automation", "Social Impact", "MindTheStore"]
+featured: true
+author: "John K. Johansen"
 ---
 
 As we watch the rapid integration of **Autonomous AI Agents** into the global economy, the conversation usually focuses on the "knowledge worker." We talk about how software engineers, marketing managers, and analysts are becoming 10x more productive. 

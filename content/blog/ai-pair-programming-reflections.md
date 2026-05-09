@@ -1,8 +1,11 @@
 ---
 title: "AI Pair Programming: What Changes and What Absolutely Doesn't"
+subtitle: "Reflections on the shift from manual coding to Venture Architecture"
 date: "2026-02-28"
 description: "Reflecting on a month of autonomous AI pair programming. The shift from writing code to architecting outcomes."
 tags: ["AI Engineering", "Zencoder", "Software Development", "Future of Work"]
+featured: true
+author: "John K. Johansen"
 ---
 
 As February 2026 draws to a close, I’ve spent the last 28 days in a unique collaboration. My primary "pair programmer" hasn't been a human colleague, but a suite of autonomous AI agents—specifically **Zencoder.ai** and the integrated coding agents in my IDE.

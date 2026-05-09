@@ -4,7 +4,7 @@ subtitle: "Enterprise power on a shoestring budget: The Human + AI advantage"
 date: "2026-01-29"
 excerpt: "In 2024, people thought you needed a $10,000 monthly AWS bill to run a production AI startup. By early 2026, we proved that a two-person team—one human and one autonomous AI agent—can run a world-class stack for the cost of a few mini-PCs and a lot of open-source grit."
 tags: ["Startup Strategy", "AI Agents", "Kubernetes", "Self-Hosted AI", "TCO"]
-featured: false
+featured: true
 author: "John K. Johansen"
 ---
 

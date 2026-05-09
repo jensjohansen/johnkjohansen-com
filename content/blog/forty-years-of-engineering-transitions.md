@@ -4,7 +4,7 @@ subtitle: "From mainframes to autonomous agents: The wisdom of the human constan
 date: "2026-01-31"
 excerpt: "I’ve seen the pendulum swing from centralized to decentralized four times in my career. Each time, we were told the world would change beyond recognition. Each time, it was the same fundamental human principles that decided the winners."
 tags: ["Engineering Leadership", "Reflections", "Career Wisdom", "AI Strategy", "History"]
-featured: false
+featured: true
 author: "John K. Johansen"
 ---
 

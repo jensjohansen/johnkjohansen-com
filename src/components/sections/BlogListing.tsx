@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { Search } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { GlowCard } from "@/components/ui/GlowCard";
@@ -32,14 +33,22 @@ export function BlogListing({ posts }: BlogListingProps) {
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim();
+    if (!q && !activeTag) return posts;
+
+    const tokens = q.split(/\s+/).filter(t => t.length > 0);
+    
     return posts.filter((p) => {
       const matchesTag = activeTag ? p.tags.includes(activeTag) : true;
-      const matchesQuery =
-        !q ||
-        p.title.toLowerCase().includes(q) ||
-        p.excerpt.toLowerCase().includes(q) ||
-        p.tags.some((t) => t.toLowerCase().includes(q));
-      return matchesTag && matchesQuery;
+      if (!matchesTag) return false;
+      
+      if (tokens.length === 0) return true;
+
+      // All tokens must match something in the post
+      return tokens.every(token => 
+        p.title.toLowerCase().includes(token) ||
+        p.excerpt.toLowerCase().includes(token) ||
+        p.tags.some((t) => t.toLowerCase().includes(token))
+      );
     });
   }, [posts, query, activeTag]);
 
@@ -146,7 +155,7 @@ export function BlogListing({ posts }: BlogListingProps) {
         {featured.length > 0 && (
           <div className="mt-12 space-y-6">
             {featured.map((post) => (
-              <a key={post.slug} href={`/blog/${post.slug}`} className="block group">
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="block group">
                 <GlowCard featured>
                   <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
                     <Badge variant="accent">Featured</Badge>
@@ -166,7 +175,7 @@ export function BlogListing({ posts }: BlogListingProps) {
                     ))}
                   </div>
                 </GlowCard>
-              </a>
+              </Link>
             ))}
           </div>
         )}
@@ -175,7 +184,7 @@ export function BlogListing({ posts }: BlogListingProps) {
         {rest.length > 0 && (
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {rest.map((post) => (
-              <a key={post.slug} href={`/blog/${post.slug}`} className="block group">
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="block group">
                 <GlowCard className="h-full flex flex-col">
                   <div className="flex-1">
                     {post.date && (
@@ -196,7 +205,7 @@ export function BlogListing({ posts }: BlogListingProps) {
                     </div>
                   )}
                 </GlowCard>
-              </a>
+              </Link>
             ))}
           </div>
         )}
