@@ -10,9 +10,75 @@ import {
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Focus", href: "#focus" },
+  { label: "Services", href: "#services" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ] as const;
+
+// ── Engineering Advisory Services ────────────────────────────
+export interface Service {
+  slug: string;
+  title: string;
+  tagline: string;
+  price: string;
+  priceNote: string;
+  summary: string;
+  targetSignal: string;
+  tags: string[];
+  featured?: boolean;
+}
+
+export const SERVICES: Service[] = [
+  {
+    slug: "fractional-cto",
+    title: "Fractional CTO Retainer",
+    tagline: "Senior engineering leadership without the full-time overhead.",
+    price: "$6K–$10K / month",
+    priceNote: "3-month minimum · 1–2 clients maximum",
+    summary:
+      "Series A–C companies need senior technical leadership but can't justify a $400K CTO hire. I provide hands-on architectural guidance, direct team mentorship, and board-level technical communication — on a retainer that scales with the engagement.",
+    targetSignal:
+      "Your technical co-founder is maxed out, you're approaching a Series B, or your last CTO just left.",
+    tags: ["Series A–C", "Architecture", "Team Leadership", "Board Prep"],
+    featured: true,
+  },
+  {
+    slug: "cofounder-cto",
+    title: "Co-founder CTO",
+    tagline: "A technical co-founder for serial entrepreneurs building their next venture.",
+    price: "2–4% equity + $2.5K/month",
+    priceNote: "or $25K–$40K fixed build · equity path requires prior exit",
+    summary:
+      "Serial entrepreneurs with proven go-to-market instincts and a new venture to build. I architect, build, and scale the product through initial launch — with 49 years of judgment on what to build and AI acceleration on how fast to build it.",
+    targetSignal:
+      "You've launched and sold before. You have a validated concept. You don't want a dev shop.",
+    tags: ["Pre-seed", "MVP", "Technical Co-founder", "AI-Accelerated"],
+  },
+  {
+    slug: "mvp-build",
+    title: "AI-Accelerated MVP Build",
+    tagline: "Production-ready software in 6–10 weeks. Not a prototype.",
+    price: "$25K–$45K fixed fee",
+    priceNote: "Milestone payments · scoping sprint required first",
+    summary:
+      "Traditional dev shops charge $150K–$300K and take 6–12 months. AI-accelerated senior engineering changes the equation. You get the same quality of architectural judgment at a fraction of the cost — because scaffolding, plumbing, and first drafts are AI-accelerated, leaving senior judgment for the 20% that matters.",
+    targetSignal:
+      "You have a validated concept, funding to build, and need it in production — not in a demo.",
+    tags: ["Fixed Fee", "6–10 Weeks", "Production-Ready", "AI-Accelerated"],
+  },
+  {
+    slug: "tech-transformation",
+    title: "Tech Stack Transformation",
+    tagline: "Simpler architecture, lower TCO, higher scalability. Phase-gated delivery.",
+    price: "$7.5K audit + $8K–$15K/month",
+    priceNote: "Two-phase model · Phase 1 deliverable is yours regardless",
+    summary:
+      "Growing companies accumulate technical debt until engineering velocity collapses and infrastructure costs run ahead of revenue. Phase 1 is a full architecture audit and transformation roadmap. Phase 2 is execution — AI-accelerated, milestone-gated, with your team enabled to own the result.",
+    targetSignal:
+      "Your infra costs are growing faster than revenue, or you're hiring DevOps/SRE to hold together a system that shouldn't need that.",
+    tags: ["Post-Series B", "Legacy Modernization", "Cost Reduction", "Phase-Gated"],
+  },
+];
 
 // ── Social Links ────────────────────────────────────────────
 export const SOCIAL_LINKS = {
