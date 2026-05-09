@@ -1,68 +1,77 @@
 ---
-title: "The Governance Problem Nobody Talks About in AI Agents"
+title: "OpenClaw Is Awesome, But..."
+subtitle: "The Governance Problem Nobody Talks About in AI Agents"
 date: "2026-05-09"
-excerpt: "The most-starred GitHub project in history failed in production not because of the model or the tools — but because of what was missing above them. Here's what enterprise AI adoption actually requires."
+excerpt: "OpenClaw became the most-starred GitHub project in history for good reasons. What happened next is a lesson every enterprise AI team should understand — not as a cautionary tale about OpenClaw, but as a pattern that shows up everywhere AI agents meet production."
 tags: ["AI Agents", "Governance", "Enterprise", "Management Process"]
 featured: true
 author: "John K. Johansen"
 ---
 
-The most-starred GitHub project in history — 250,000 stars in roughly 60 days — was a personal AI assistant with a community plugin ecosystem of over 5,700 skills.
+OpenClaw became the most-starred GitHub project in GitHub's history — 250,000 stars in roughly 60 days in early 2026. That is a genuine achievement and a genuine signal: developers around the world recognized something real in what the OpenClaw team built. A self-hosted personal AI assistant, connected to the messaging apps people already use, with a community plugin ecosystem of 5,700+ skills. Simple to set up, genuinely useful, immediately understandable.
 
-Within three months: 9 critical CVEs, a supply chain attack that poisoned 1,184 plugins, and 135,000+ exposed instances. Microsoft and Meta both recommended against enterprise use.
+I think it's a remarkable piece of work.
 
-The technology worked. The model was fine. The tools were plentiful.
+What happened next is worth understanding — not as a criticism of OpenClaw, but because the same pattern shows up in nearly every enterprise AI agent initiative I've seen, regardless of the platform.
 
-What failed was the absence of any management layer.
+## What happened
 
-## The pattern repeats itself
+Within a few months of OpenClaw's rise: 9 critical CVEs were published, a supply chain attack called ClawHavoc poisoned 1,184 community plugins, and over 135,000 instances were exposed. Microsoft and Meta recommended against enterprise use.
 
-I've spent 49 years watching this play out across every automation wave since the 1970s. The failure mode is remarkably consistent: a team assembles an impressive set of tools, picks a capable model, builds a proof of concept that impresses leadership — and then hits a wall in production.
+The technology itself held up. The model integrations worked. The plugin mechanism did what it was designed to do.
 
-Not because the AI failed. Because there was no process.
+What wasn't there was a management layer above the technology: no security review process for community plugins before they entered the ecosystem, no governance over what could run on which machine, no audit trail for tool invocations, no quality gate between "someone published this skill" and "this skill is running with access to your messages and files."
 
-No behavioral guidance for the agents. No quality criteria for outputs. No escalation path when something went wrong. No audit trail to investigate when it did. No governance over what tools could be called, by which agent, in which context.
+The ClawHavoc attack didn't exploit a bug in OpenClaw. It exploited the gap between a thriving community ecosystem and a mature trust model for that ecosystem. That gap is hard to close, and the OpenClaw community is actively working on it. But it took a serious incident to make the gap visible.
 
-The proof of concept had none of those things, and it worked fine. Because proof of concepts don't have production traffic, real customer data, or adversarial inputs. Production does.
+## Why this pattern is so common
 
-## What "management process" actually means for AI agents
+The missing management layer isn't unique to OpenClaw. It shows up in enterprise AI agent projects constantly, and for understandable reasons.
 
-When I talk about management process for AI agent teams, I mean four specific things:
+When you're building a proof of concept — which is where almost every AI agent project starts — governance feels like overhead. The goal is to demonstrate that the agents can do the thing. Quality gates, audit trails, behavioral guidance, tool allowlisting: none of that helps you ship the demo faster. It all gets deferred.
 
-**Behavioral guidance**: What is this agent supposed to do, and more importantly, what is it *not* supposed to do? A system prompt is not behavioral guidance — it's a suggestion. Behavioral guidance is a versioned, reviewable specification that a business stakeholder can read, approve, and audit. It defines the persona, the constraints, the escalation triggers, and the fallback behavior.
+The demo works. Leadership is impressed. The project gets resourced. And then the team tries to take the demo to production, and discovers that production has requirements the demo never had: real customer data, adversarial inputs, compliance obligations, the expectation that it will work correctly at 2 AM on a Saturday when no one is watching.
 
-**Quality gates**: How do you know if the agent's output is good enough to proceed? Human approval gates for high-stakes decisions. Automated checks for structural correctness. A defined rework path when outputs fail. Without quality gates, an agent that produces wrong outputs at 2 AM on a Saturday is just wrong until someone notices Monday morning.
+The governance layer that felt like overhead in the proof of concept turns out to be the difference between a production system and a proof of concept that got lucky.
 
-**Audit trails**: Every tool call, every model invocation, every human approval decision — recorded, timestamped, and attributable to a specific agent acting under a specific behavioral specification on a specific work request. Not for bureaucracy. For the moment when something goes wrong and you need to understand what happened and why.
+## What "management process" actually means here
 
-**Tool governance**: Not every tool should be available to every agent. A customer-facing agent that can execute arbitrary shell commands is not a capable agent — it's a liability. Tool allowlisting, scoped permissions, and review processes for adding new tool integrations are not overhead. They are the difference between a production AI system and a proof of concept that got lucky.
+When I talk about management process for AI agent teams, I mean four specific things — none of which are exotic, all of which are familiar from managing human teams:
 
-## The tool count fallacy
+**Behavioral guidance**: A versioned, reviewable specification of what each agent is supposed to do and not do — something a business stakeholder can read, approve, and audit. A system prompt embedded in a config file is not behavioral guidance. It's a starting point.
 
-There is a pervasive belief in AI agent communities that more tools equals more capable agents. The 5,700-plugin ecosystem is an extreme example of this belief taken to its logical conclusion.
+**Quality gates**: Defined criteria for when an agent's output is good enough to proceed, and a clear path when it isn't. Human approval for high-stakes decisions. Automated checks for structural correctness. A rework process that doesn't require someone to notice a problem manually.
 
-The belief is wrong.
+**Audit trails**: Every tool call, every model invocation, every human approval decision — recorded and attributable. Not for bureaucracy, but for the moment when something goes wrong and you need to understand what happened.
 
-An AI agent team with ten vetted tools, clear behavioral guidance, and a defined quality gate process will consistently outperform one with 5,700 unvetted plugins and no governance. Every time.
+**Tool governance**: Scoped access. Not every agent needs every tool. A customer-facing agent with access to arbitrary shell execution isn't more capable — it's a different risk profile. Managing that is a process question, not just a configuration question.
 
-The reason is simple: capability is not the limiting factor. Reliability is. Predictability is. The ability to say, with confidence, "this agent will do what we expect it to do, in the conditions we expect it to operate in, and we will know immediately when it doesn't."
+## The ecosystem tradeoff
 
-A 5,700-plugin ecosystem cannot provide that. Ten vetted, tested, scoped integrations can.
+OpenClaw's 5,700-skill ecosystem is genuinely impressive. More integrations mean more things users can do. That value is real.
 
-## What this means for enterprise AI adoption
+The tradeoff is that ecosystem breadth and governance depth pull in opposite directions, especially at the start. A community of thousands of contributors publishing skills is hard to vet at scale. The ClawHavoc attack demonstrated exactly what that tradeoff looks like when it goes wrong.
 
-If you are evaluating AI agent platforms for enterprise use, the questions that matter are not about model quality or tool count. They are:
+This doesn't mean broad ecosystems are a mistake. It means that ecosystem breadth without a trust model creates a specific kind of risk that needs to be managed explicitly — and that the management work is at least as important as the engineering work.
 
-- How does behavioral guidance get defined, versioned, and approved?
+An AI agent team with ten vetted, well-governed integrations will be more reliable in production than one with 5,700 unvetted options. Not because fewer tools means less capability — but because reliability in production requires knowing what your system will do, not just what it can do.
+
+## What to take from this
+
+If you're evaluating AI agent platforms for enterprise use, the questions worth asking go beyond model quality and tool count:
+
+- How does behavioral guidance get defined and versioned?
 - What is the quality gate model for agent outputs?
-- What does the audit trail cover, and who can access it?
-- How is tool access controlled, and what is the review process for new integrations?
-- When something goes wrong in production at 2 AM, what does the on-call engineer see?
+- What does the audit trail cover?
+- How is tool access controlled, and who reviews new integrations?
+- When something goes wrong in production, what does the on-call engineer see?
 
-These are management questions, not engineering questions. The engineering team can answer the model and tool questions in an afternoon. The management questions take months to design well — and most AI agent platforms don't surface them at all, because they're not fun to talk about.
+These are questions about the management layer, not the technology layer. They're also the questions that most AI agent platforms — OpenClaw included, though the community is actively improving — don't surface prominently, because they're not the exciting part.
 
-They are, however, the questions that determine whether your AI agent initiative succeeds in production or becomes another cautionary tale about why enterprise AI is hard.
+They are, however, the part that determines whether your AI agent initiative succeeds in production.
+
+OpenClaw is a genuinely exciting project. What the community learned the hard way about governance is a gift to everyone building AI agent systems — if we're willing to learn from it.
 
 ---
 
-*I built Kaigents specifically to make these management questions answerable in a production Kubernetes environment. It is open-source, MIT-licensed, and designed for teams that need AI agent infrastructure they can actually govern. [See it on GitHub](https://github.com/jensjohansen/kaigents).*
+*I built [Kaigents](https://github.com/jensjohansen/kaigents) specifically to make these management questions answerable in a production Kubernetes environment. Open-source, MIT-licensed, designed for teams that need AI agent infrastructure they can actually govern.*

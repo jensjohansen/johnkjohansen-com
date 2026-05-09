@@ -103,6 +103,9 @@ export default async function BlogPostPage({ params }: Props) {
             <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               <GradientText>{post.title}</GradientText>
             </h1>
+            {post.subtitle && (
+              <p className="mt-3 text-xl font-medium text-foreground/70">{post.subtitle}</p>
+            )}
             {post.excerpt && (
               <p className="mt-4 text-lg text-muted leading-relaxed">{post.excerpt}</p>
             )}

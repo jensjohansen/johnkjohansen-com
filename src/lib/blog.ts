@@ -9,6 +9,7 @@ const BLOG_DIR = path.join(process.cwd(), "content/blog");
 
 export interface PostFrontmatter {
   title: string;
+  subtitle?: string;
   date: string;
   excerpt: string;
   tags: string[];
@@ -44,6 +45,7 @@ export function getAllPostMeta(): PostMeta[] {
       return {
         slug,
         title: data.title ?? slug,
+        subtitle: data.subtitle,
         date: data.date ?? "",
         excerpt: data.excerpt ?? "",
         tags: data.tags ?? [],
@@ -72,6 +74,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   return {
     slug,
     title: data.title ?? slug,
+    subtitle: data.subtitle,
     date: data.date ?? "",
     excerpt: data.excerpt ?? "",
     tags: data.tags ?? [],
