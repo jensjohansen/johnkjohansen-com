@@ -57,7 +57,7 @@ export function BlogListing({ posts }: BlogListingProps) {
         </h1>
         <p className="mt-4 max-w-2xl text-muted">
           Practical insights on integrating autonomous AI agents into startup technical
-          strategy — without handing your IP to cloud providers. Written from 49 years of
+          strategy — without handing your IP to cloud providers. Written from 40+ years of
           engineering perspective across every automation wave since the 1970s.
         </p>
 

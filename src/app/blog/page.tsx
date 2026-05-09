@@ -7,7 +7,7 @@ import { getAllPostMeta } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Blog — John K. Johansen",
   description:
-    "Practical insights on integrating autonomous AI agents into startup technical strategy — without handing your IP to cloud providers. 49 years of engineering perspective on the AI transition.",
+    "Practical insights on integrating autonomous AI agents into startup technical strategy — without handing your IP to cloud providers. 40+ years of engineering perspective on the AI transition.",
   openGraph: {
     title: "Blog — John K. Johansen",
     description:

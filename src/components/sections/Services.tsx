@@ -17,7 +17,7 @@ export function Services() {
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
             Four services across the startup lifecycle — from pre-seed technical co-founding through
-            post-Series B transformation. All backed by 49 years of engineering judgment and
+            post-Series B transformation. All backed by 40+ years of engineering judgment and
             AI-accelerated delivery.
           </p>
         </RevealOnScroll>
@@ -75,7 +75,7 @@ export function Services() {
           <div className="mt-12 rounded-xl border border-card-border bg-card/30 p-6 md:p-8">
             <p className="font-mono text-sm text-accent mb-2">// the shared differentiator</p>
             <p className="text-sm leading-relaxed text-muted max-w-3xl">
-              Every engagement is backed by the same combination: 49 years of software engineering,
+              Every engagement is backed by the same combination: 40+ years of software engineering,
               25 years of engineering management, and{" "}
               <a
                 href="https://github.com/jensjohansen/kaigents"

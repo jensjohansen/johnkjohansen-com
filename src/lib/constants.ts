@@ -50,7 +50,7 @@ export const SERVICES: Service[] = [
     price: "2–4% equity + $2.5K/month",
     priceNote: "or $25K–$40K fixed build · equity path requires prior exit",
     summary:
-      "Serial entrepreneurs with proven go-to-market instincts and a new venture to build. I architect, build, and scale the product through initial launch — with 49 years of judgment on what to build and AI acceleration on how fast to build it.",
+      "Serial entrepreneurs with proven go-to-market instincts and a new venture to build. I architect, build, and scale the product through initial launch — with 40+ years of judgment on what to build and AI acceleration on how fast to build it.",
     targetSignal:
       "You've launched and sold before. You have a validated concept. You don't want a dev shop.",
     tags: ["Pre-seed", "MVP", "Technical Co-founder", "AI-Accelerated"],

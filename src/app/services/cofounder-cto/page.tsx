@@ -11,7 +11,7 @@ import { SOCIAL_LINKS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Co-founder CTO — John K Johansen",
   description:
-    "Technical co-founder for serial entrepreneurs building their next venture. Architecture, MVP build, and launch scaling — backed by 49 years of engineering judgment and AI-accelerated delivery.",
+    "Technical co-founder for serial entrepreneurs building their next venture. Architecture, MVP build, and launch scaling — backed by 40+ years of engineering judgment and AI-accelerated delivery.",
 };
 
 const EQUITY_PATH = [
