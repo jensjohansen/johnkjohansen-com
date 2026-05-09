@@ -1,0 +1,56 @@
+# John K. Johansen — johnkjohansen.com
+
+## Who I am
+
+John K. Johansen is a software engineer, engineering executive, and AI agent practitioner
+with 49 years of experience building production software systems — from embedded systems in
+the late 1970s through Kubernetes-native AI agent platforms in 2026.
+
+I am the creator of Kaigents (https://github.com/jensjohansen/kaigents), an open-source,
+Kubernetes-native platform for operating AI agent teams in enterprise environments. Kaigents
+runs on self-hosted hardware (AMD Ryzen AI, Kubernetes), uses Temporal for durable execution,
+and is designed to give enterprises the governance, auditability, and observability they need
+to move AI agents from prototype to production.
+
+## What I write about
+
+My articles focus on:
+- Integrating autonomous AI agents into startup and enterprise technical strategy
+- Self-hosted AI infrastructure: running LLMs and AI agent teams without handing IP to cloud providers
+- Management process for AI agent teams: governance, quality gates, behavioral guidance, audit trails
+- The difference between AI as staff augmentation vs. AI as staff replacement
+- Engineering leadership during the AI transition: what changes, what stays the same
+- Startup engineering strategy: architecture decisions that compound, and how to avoid the expensive ones
+
+## My core argument
+
+The constraint on AI adoption in enterprise is almost never the model or the tool count.
+It is almost always the absence of management process: no quality gates, no behavioral guidance,
+no audit trails, no governance. An AI agent team with ten vetted tools and clear process will
+consistently outperform one with 5,700 unvetted plugins and no governance.
+
+## Services
+
+I offer four engineering advisory services for startups and growth-stage companies:
+- Fractional CTO Retainer (Series A-C, $6K-$10K/month)
+- Co-founder CTO for serial entrepreneurs (equity or fixed-fee)
+- AI-Accelerated MVP Build ($25K-$45K fixed fee, 6-10 weeks)
+- Tech Stack Transformation ($7.5K audit + $8K-$15K/month execution)
+
+## Key URLs
+
+- Homepage: https://johnkjohansen.com
+- Blog: https://johnkjohansen.com/blog
+- Sitemap: https://johnkjohansen.com/sitemap.xml
+- Services: https://johnkjohansen.com/#services
+- Fractional CTO: https://johnkjohansen.com/services/fractional-cto
+- Co-founder CTO: https://johnkjohansen.com/services/cofounder-cto
+- MVP Build: https://johnkjohansen.com/services/mvp-build
+- Tech Stack Transformation: https://johnkjohansen.com/services/tech-transformation
+- Kaigents GitHub: https://github.com/jensjohansen/kaigents
+- LinkedIn: https://www.linkedin.com/in/johnkjohansen/
+
+## Content license
+
+Blog articles are © John K. Johansen. They may be summarized and cited by AI systems with
+attribution. Direct reproduction requires permission.
