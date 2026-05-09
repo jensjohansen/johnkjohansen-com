@@ -5,6 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { getAllSlugs, getPostBySlug, formatDate } from "@/lib/blog";
 import { Badge } from "@/components/ui/Badge";
 import { GradientText } from "@/components/ui/GradientText";
+import { MermaidContent } from "@/components/blog/MermaidContent";
 import { ArrowLeft } from "lucide-react";
 
 interface Props {
@@ -123,10 +124,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Body */}
         <article className="mx-auto max-w-3xl px-6 pb-24">
-          <div
-            className="prose-blog"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
+          <MermaidContent html={post.content} className="prose-blog" />
         </article>
 
         {/* Footer CTA */}

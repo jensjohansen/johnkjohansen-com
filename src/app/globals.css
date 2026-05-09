@@ -236,6 +236,22 @@ html {
 }
 .prose-blog tr:nth-child(even) td { background: #0f0f15; }
 
+/* Mermaid diagrams */
+.mermaid-diagram {
+  margin: 2em 0;
+  padding: 1.5rem;
+  background: #0f0f15;
+  border: 1px solid #1e1e2e;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  text-align: center;
+}
+.mermaid-diagram svg {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
 /* Proficiency bar */
 .proficiency-bar {
   height: 6px;

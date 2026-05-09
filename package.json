@@ -11,6 +11,7 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.574.0",
+    "mermaid": "^11.14.0",
     "motion": "^12.34.2",
     "next": "16.1.6",
     "react": "19.2.3",
