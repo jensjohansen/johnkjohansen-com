@@ -1,6 +1,6 @@
 ---
-title: "5,700 Plugins and a Missing Trust Model"
-subtitle: "What the most-starred GitHub project in history taught us about AI agent governance"
+title: "Autonomous AI Agents Are Awesome, But..."
+subtitle: "What the most-starred GitHub project in history taught us about governance"
 date: "2026-05-09"
 excerpt: "A self-hosted AI assistant became the most-starred GitHub project in history — a genuine achievement. What happened next is a lesson every enterprise AI team should understand, not as a cautionary tale about one project, but as a pattern that shows up everywhere AI agents meet production."
 tags: ["AI Agents", "Governance", "Enterprise", "Management Process"]
