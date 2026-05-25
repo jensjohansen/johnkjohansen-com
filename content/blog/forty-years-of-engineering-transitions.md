@@ -8,9 +8,9 @@ featured: true
 author: "John K. Johansen"
 ---
 
-By the final day of January 2026, the AI agent revolution has moved from "impending" to "operational." We’ve seen the GA releases of enterprise platforms, the collapse of the dropshipping e-commerce model, and the emergence of self-hosted "Silicon Sovereignty." 
+By the final day of May 2026, the AI agent revolution has moved from "impending" to "operational." We’ve seen the GA releases of enterprise platforms, the collapse of the dropshipping e-commerce model, and the emergence of self-hosted "Silicon Sovereignty." 
 
-At 65, standing at this particular intersection of history, I find myself looking back as often as I look forward. 
+Standing at this particular intersection of history, I find myself looking back as often as I look forward. 
 
 I’ve spent 40+ years in the software engineering trenches. I’ve lived through the transition from IBM Mainframes to the PC revolution, from the PC to the World Wide Web, from the Web to the Mobile/Cloud era, and now, from the Cloud to the Agentic Era. 
 
@@ -60,13 +60,13 @@ mindmap
             Dignity of Work
 ```
 
-## Looking Forward from 65
+## Looking Forward
 
 I am not a luddite. I am currently running my own AI-powered business on [Kaigents](https://github.com/jensjohansen/kaigents), collaborating daily with an autonomous agent. I believe this transition is the most profound one of my career.
 
 But I am also a pragmatist. I know that the "magic" of AI will eventually fade, leaving us with the same engineering challenges we’ve always had: reliability, security, cost, and human impact.
 
-At 65, my mission is to share the "hindsight" of these 40+ years to help the next generation avoid the same traps we fell into during the PC and Web eras. Don't fall in love with the magic. Fall in love with the discipline. 
+My mission is to share the "hindsight" of these 40+ years to help the next generation avoid the same traps we fell into during the PC and Web eras. Don't fall in love with the magic. Fall in love with the discipline. 
 
 The machines have arrived, but the human constants are still the ones in charge.
 
