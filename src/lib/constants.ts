@@ -190,20 +190,20 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    title: "KaiCatalog",
-    description: "A curated catalog service for MCP servers with 40+ pre-vetted tools, security posture ratings, and air-gapped mirroring support.",
-    impact: "Reduces tool discovery and deployment time from hours to seconds for enterprise AI agent teams.",
-    tags: ["Rust", "Axum", "RethinkDB", "MCP"],
+    title: "Kaigents",
+    description: "A production-grade, Kubernetes-native substrate for operating AI agent teams. Built for low TCO on AMD Ryzen AI hardware with durable execution via Temporal.",
+    impact: "Provides the enterprise-grade visibility, durability, and governance needed to move AI agents from prototype to production at scale.",
+    tags: ["Rust", "Go", "Temporal", "Kubernetes", "AI Agents"],
     status: "Active",
     featured: true,
     link: {
       label: "View on GitHub",
-      href: "https://github.com/jensjohansen/kaicatalog",
+      href: "https://github.com/jensjohansen/kaigents",
     },
   },
   {
     title: "KaiManager",
-    description: "The management layer for Kaigents, providing first-class surfaces for agent personas, quality gates, and process health monitoring.",
+    description: "The management layer for Kaigents. Provides first-class surfaces for agent personas, quality gates, and process health monitoring.",
     impact: "Enables non-technical process owners to manage and govern AI agent teams with production-grade visibility.",
     tags: ["Rust", "Axum", "RethinkDB", "Governance"],
     status: "Active",
@@ -214,9 +214,21 @@ export const PROJECTS: Project[] = [
     },
   },
   {
+    title: "KaiCatalog",
+    description: "The curated tool registry for the Kaigents ecosystem. Features 40+ pre-vetted MCP servers with security posture ratings and air-gapped support.",
+    impact: "Reduces tool discovery and deployment time from hours to seconds for enterprise AI agent teams.",
+    tags: ["Rust", "Axum", "RethinkDB", "MCP"],
+    status: "Active",
+    featured: true,
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/jensjohansen/kaicatalog",
+    },
+  },
+  {
     title: "KaiCLI",
-    description: "The operator interface for the Kaigents ecosystem. Unified command-line tool for managing MCP tools, personas, and platform health.",
-    impact: "Provides a powerful, scriptable interface for platform engineers and AI operators.",
+    description: "The operator interface for Kaigents. A unified command-line tool for managing MCP tools, personas, and platform health.",
+    impact: "Provides a powerful, scriptable interface for platform engineers and AI operators to manage agent substrate.",
     tags: ["Go", "Cobra", "CLI", "DevOps"],
     status: "Active",
     featured: true,
@@ -255,18 +267,6 @@ export const PROJECTS: Project[] = [
     tags: ["AI Agents", "LLM", "Automation", "TypeScript"],
     status: "Active",
     featured: true,
-  },
-  {
-    title: "Kaigents",
-    description: "A production-grade, Kubernetes-native substrate for operating AI agent teams. Built for low TCO on AMD Ryzen AI hardware with durable execution via Temporal.",
-    impact: "Provides the enterprise-grade visibility, durability, and governance needed to move AI agents from prototype to production at scale.",
-    tags: ["Rust", "Go", "Temporal", "Kubernetes", "AI Agents"],
-    status: "Active",
-    featured: true,
-    link: {
-      label: "View on GitHub",
-      href: "https://github.com/jensjohansen/kaigents",
-    },
   },
   {
     title: "AMD Ryzen Monitoring in Linux",
