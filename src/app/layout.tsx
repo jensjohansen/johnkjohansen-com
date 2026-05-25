@@ -17,12 +17,25 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "John K Johansen — Software Architect & AI Agent Builder",
   description:
-    "Seasoned software architect, tech executive, and AI agent builder helping startups stretch funding through intelligent automation. 20+ years building scalable systems.",
+    "Fractional CTO, venture architect, and AI agent builder helping startups scale through intelligent automation. 40+ years of engineering experience across fintech, e-commerce, and high-availability systems.",
+  keywords: [
+    "Fractional CTO",
+    "AI Agent Builder",
+    "Venture Architect",
+    "Startup Advisor",
+    "Software Architecture",
+    "Autonomous Agents",
+    "Kaigents",
+    "Engineering Leadership",
+  ],
   metadataBase: new URL("https://johnkjohansen.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "John K Johansen — Software Architect & AI Agent Builder",
     description:
-      "Seasoned software architect, tech executive, and AI agent builder helping startups stretch funding through intelligent automation.",
+      "Fractional CTO and AI agent builder helping startups scale through intelligent automation. 40+ years of senior engineering leadership.",
     url: "https://johnkjohansen.com",
     siteName: "John K Johansen",
     locale: "en_US",

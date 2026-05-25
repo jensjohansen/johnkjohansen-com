@@ -35,22 +35,52 @@ export function BlogListing({ posts }: BlogListingProps) {
     const q = query.toLowerCase().trim();
     if (!q && !activeTag) return posts;
 
-    const tokens = q.split(/\s+/).filter(t => t.length > 0);
-    
-    return posts.filter((p) => {
-      const matchesTag = activeTag ? p.tags.includes(activeTag) : true;
-      if (!matchesTag) return false;
-      
-      if (tokens.length === 0) return true;
+    const tokens = q.split(/\s+/).filter((t) => t.length > 0);
 
-      // All tokens must match something in the post
-      return tokens.every(token => 
-        p.title.toLowerCase().includes(token) ||
-        p.excerpt.toLowerCase().includes(token) ||
-        p.tags.some((t) => t.toLowerCase().includes(token))
-      );
+    return posts.filter((p) => {
+      // If we have a query, we check if it matches first
+      const matchesQuery =
+        tokens.length === 0 ||
+        tokens.every(
+          (token) =>
+            p.title.toLowerCase().includes(token) ||
+            p.excerpt.toLowerCase().includes(token) ||
+            p.subtitle?.toLowerCase().includes(token) ||
+            p.tags.some((t) => t.toLowerCase().includes(token)) ||
+            p.searchContent?.toLowerCase().includes(token)
+        );
+
+      if (!matchesQuery) return false;
+
+      // If it matches the query, it must also match the tag (if one is active)
+      // Exception: If the query is very specific, we might want to show it even if the tag doesn't match,
+      // but standard UX is to keep the tag filter. We'll stick to tag + query = AND for now
+      // but ensure we're matching against subtitle too.
+      const matchesTag = activeTag ? p.tags.includes(activeTag) : true;
+      return matchesTag;
     });
   }, [posts, query, activeTag]);
+
+  // Suggested results if the current tag filter is too restrictive
+  const alternativeResults = useMemo(() => {
+    const q = query.toLowerCase().trim();
+    if (!q || !activeTag || filtered.length > 0) return [];
+
+    const tokens = q.split(/\s+/).filter((t) => t.length > 0);
+
+    return posts.filter((p) => {
+      const matchesQuery = tokens.every(
+        (token) =>
+          p.title.toLowerCase().includes(token) ||
+          p.excerpt.toLowerCase().includes(token) ||
+          p.subtitle?.toLowerCase().includes(token) ||
+          p.tags.some((t) => t.toLowerCase().includes(token)) ||
+          p.searchContent?.toLowerCase().includes(token)
+      );
+      // Only return if it matches query but NOT the current tag
+      return matchesQuery && !p.tags.includes(activeTag);
+    });
+  }, [posts, query, activeTag, filtered.length]);
 
   const featured = filtered.filter((p) => p.featured);
   const rest = filtered.filter((p) => !p.featured);
@@ -75,7 +105,7 @@ export function BlogListing({ posts }: BlogListingProps) {
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-muted pointer-events-none" />
           <input
             type="search"
-            placeholder="Search articles…"
+            placeholder="Search all articles for titles, tags, or content…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full rounded-xl border border-card-border bg-card/50 pl-11 pr-4 py-3 text-sm text-foreground placeholder:text-muted focus:outline-none focus:border-accent/40 transition-colors"
@@ -141,13 +171,30 @@ export function BlogListing({ posts }: BlogListingProps) {
         {/* No search results */}
         {posts.length > 0 && filtered.length === 0 && (
           <div className="mt-16 text-center">
-            <p className="text-muted">No articles match that search.</p>
-            <button
-              onClick={() => { setQuery(""); setActiveTag(null); }}
-              className="mt-4 text-sm text-accent hover:underline"
-            >
-              Clear filters
-            </button>
+            <p className="text-muted">
+              {alternativeResults.length > 0 
+                ? `No articles match "${query}" in the "${activeTag}" category.` 
+                : "No articles match that search."}
+            </p>
+            <div className="mt-4 flex flex-col items-center gap-2">
+              {alternativeResults.length > 0 && (
+                <button
+                  onClick={() => setActiveTag(null)}
+                  className="text-sm text-accent hover:underline"
+                >
+                  Clear tag filter to see {alternativeResults.length} {alternativeResults.length === 1 ? "result" : "results"} from other categories
+                </button>
+              )}
+              <button
+                onClick={() => {
+                  setQuery("");
+                  setActiveTag(null);
+                }}
+                className="text-sm text-muted hover:text-foreground"
+              >
+                Clear all filters
+              </button>
+            </div>
           </div>
         )}
 
@@ -171,7 +218,17 @@ export function BlogListing({ posts }: BlogListingProps) {
                   <p className="text-sm leading-relaxed text-muted mb-4">{post.excerpt}</p>
                   <div className="flex flex-wrap gap-2">
                     {post.tags.map((tag) => (
-                      <Badge key={tag}>{tag}</Badge>
+                      <Badge 
+                        key={tag}
+                        className="cursor-pointer hover:bg-accent/20 transition-colors"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          setActiveTag(activeTag === tag ? null : tag);
+                        }}
+                      >
+                        {tag}
+                      </Badge>
                     ))}
                   </div>
                 </GlowCard>
@@ -200,7 +257,17 @@ export function BlogListing({ posts }: BlogListingProps) {
                   {post.tags.length > 0 && (
                     <div className="mt-4 flex flex-wrap gap-1.5">
                       {post.tags.map((tag) => (
-                        <Badge key={tag}>{tag}</Badge>
+                        <Badge 
+                          key={tag}
+                          className="cursor-pointer hover:bg-accent/20 transition-colors"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            setActiveTag(activeTag === tag ? null : tag);
+                          }}
+                        >
+                          {tag}
+                        </Badge>
                       ))}
                     </div>
                   )}

@@ -11,7 +11,15 @@ import { SOCIAL_LINKS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "AI-Accelerated MVP Build — John K Johansen",
   description:
-    "Production-ready software in 6–10 weeks. $25K–$45K fixed fee. Senior architectural judgment with AI-accelerated delivery — at a fraction of traditional dev shop cost.",
+    "Production-ready software in 6–10 weeks. $25K–$45K fixed fee. Senior architectural judgment with AI-accelerated delivery at a fraction of traditional cost.",
+  alternates: {
+    canonical: "/services/mvp-build",
+  },
+  openGraph: {
+    title: "AI-Accelerated MVP Build — John K Johansen",
+    description: "Production-ready software in 6–10 weeks. Senior architectural judgment with AI-accelerated delivery.",
+    type: "website",
+  },
 };
 
 const WHAT_WORKING_MEANS = [

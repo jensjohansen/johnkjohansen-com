@@ -11,7 +11,15 @@ import { SOCIAL_LINKS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Tech Stack Transformation — John K Johansen",
   description:
-    "Two-phase legacy modernization at a fraction of Big Four consulting cost. Phase 1: $7,500 architecture audit. Phase 2: AI-accelerated execution, milestone-gated.",
+    "Legacy modernization and cost reduction at a fraction of Big Four consulting cost. Phase 1: architecture audit. Phase 2: AI-accelerated execution.",
+  alternates: {
+    canonical: "/services/tech-transformation",
+  },
+  openGraph: {
+    title: "Tech Stack Transformation — John K Johansen",
+    description: "Legacy modernization, architecture audits, and cost reduction for growing technical organizations.",
+    type: "website",
+  },
 };
 
 const PAIN_SIGNALS = [

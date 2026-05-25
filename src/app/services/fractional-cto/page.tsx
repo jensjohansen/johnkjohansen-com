@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   title: "Fractional CTO Retainer — John K Johansen",
   description:
     "Senior engineering leadership for Series A–C companies. Hands-on architectural guidance, team mentorship, and board-level technical communication — without the full-time overhead.",
+  alternates: {
+    canonical: "/services/fractional-cto",
+  },
+  openGraph: {
+    title: "Fractional CTO Retainer — John K Johansen",
+    description: "Senior engineering leadership for Series A–C companies. Strategic architectural guidance and team mentorship.",
+    type: "website",
+  },
 };
 
 const INCLUDED = [

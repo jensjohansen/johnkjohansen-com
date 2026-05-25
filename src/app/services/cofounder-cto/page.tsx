@@ -11,7 +11,15 @@ import { SOCIAL_LINKS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Co-founder CTO — John K Johansen",
   description:
-    "Technical co-founder for serial entrepreneurs building their next venture. Architecture, MVP build, and launch scaling — backed by 40+ years of engineering judgment and AI-accelerated delivery.",
+    "Technical co-founder for serial entrepreneurs. Architecture, MVP build, and launch scaling backed by 40+ years of engineering judgment and AI-accelerated delivery.",
+  alternates: {
+    canonical: "/services/cofounder-cto",
+  },
+  openGraph: {
+    title: "Co-founder CTO — John K Johansen",
+    description: "Technical co-founder for serial entrepreneurs. AI-accelerated MVP build and architectural leadership.",
+    type: "website",
+  },
 };
 
 const EQUITY_PATH = [

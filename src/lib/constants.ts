@@ -190,6 +190,42 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    title: "KaiCatalog",
+    description: "A curated catalog service for MCP servers with 40+ pre-vetted tools, security posture ratings, and air-gapped mirroring support.",
+    impact: "Reduces tool discovery and deployment time from hours to seconds for enterprise AI agent teams.",
+    tags: ["Rust", "Axum", "RethinkDB", "MCP"],
+    status: "Active",
+    featured: true,
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/jensjohansen/kaicatalog",
+    },
+  },
+  {
+    title: "KaiManager",
+    description: "The management layer for Kaigents, providing first-class surfaces for agent personas, quality gates, and process health monitoring.",
+    impact: "Enables non-technical process owners to manage and govern AI agent teams with production-grade visibility.",
+    tags: ["Rust", "Axum", "RethinkDB", "Governance"],
+    status: "Active",
+    featured: true,
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/jensjohansen/kaimanager",
+    },
+  },
+  {
+    title: "KaiCLI",
+    description: "The operator interface for the Kaigents ecosystem. Unified command-line tool for managing MCP tools, personas, and platform health.",
+    impact: "Provides a powerful, scriptable interface for platform engineers and AI operators.",
+    tags: ["Go", "Cobra", "CLI", "DevOps"],
+    status: "Active",
+    featured: true,
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/jensjohansen/kaicli",
+    },
+  },
+  {
     title: "TeamKnowl",
     description:
       "A Kubernetes-native, Git-driven knowledge base platform. Features an Obsidian-like experience with sharded indexing and S3-compatible storage (CEPH) for AI + Human teams.",
