@@ -191,7 +191,7 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     title: "Kaigents",
-    description: "A production-grade, Kubernetes-native substrate for operating AI agent teams. Built for low TCO on AMD Ryzen AI hardware with durable execution via Temporal.",
+    description: "GA v1.0.0. A production-grade, Kubernetes-native substrate for operating AI agent teams. Built for low TCO on AMD Ryzen AI hardware with durable execution via Temporal.",
     impact: "Provides the enterprise-grade visibility, durability, and governance needed to move AI agents from prototype to production at scale.",
     tags: ["Rust", "Go", "Temporal", "Kubernetes", "AI Agents"],
     status: "Active",
@@ -203,7 +203,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "KaiManager",
-    description: "The management layer for Kaigents. Provides first-class surfaces for agent personas, quality gates, and process health monitoring.",
+    description: "GA v1.0.0. The management layer for Kaigents. Provides first-class surfaces for agent personas, quality gates, and process health monitoring.",
     impact: "Enables non-technical process owners to manage and govern AI agent teams with production-grade visibility.",
     tags: ["Rust", "Axum", "RethinkDB", "Governance"],
     status: "Active",
@@ -215,7 +215,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "KaiCatalog",
-    description: "The curated tool registry for the Kaigents ecosystem. Features 40+ pre-vetted MCP servers with security posture ratings and air-gapped support.",
+    description: "GA v1.0.0. The curated tool registry for the Kaigents ecosystem. Features 40+ pre-vetted MCP servers with security posture ratings and air-gapped support.",
     impact: "Reduces tool discovery and deployment time from hours to seconds for enterprise AI agent teams.",
     tags: ["Rust", "Axum", "RethinkDB", "MCP"],
     status: "Active",
@@ -227,7 +227,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "KaiCLI",
-    description: "The operator interface for Kaigents. A unified command-line tool for managing MCP tools, personas, and platform health.",
+    description: "GA v1.0.0. The operator interface for Kaigents. A unified command-line tool for managing MCP tools, personas, and platform health.",
     impact: "Provides a powerful, scriptable interface for platform engineers and AI operators to manage agent substrate.",
     tags: ["Go", "Cobra", "CLI", "DevOps"],
     status: "Active",
@@ -240,7 +240,7 @@ export const PROJECTS: Project[] = [
   {
     title: "TeamKnowl",
     description:
-      "A Kubernetes-native, Git-driven knowledge base platform. Features an Obsidian-like experience with sharded indexing and S3-compatible storage (CEPH) for AI + Human teams.",
+      "GA v1.0.0. A Kubernetes-native, Git-driven knowledge base platform. Features an Obsidian-like experience with sharded indexing and S3-compatible storage (CEPH) for AI + Human teams.",
     impact: "Enables horizontally scalable, self-healing shared memory for autonomous AI agents and engineering teams.",
     tags: ["Go", "Kubernetes Operator", "S3/CEPH", "React"],
     status: "Active",
@@ -249,7 +249,7 @@ export const PROJECTS: Project[] = [
   {
     title: "CodeKnowl",
     description:
-      "On-prem, local-first codebase analyst that provides a structured relationship store and knowledge base for high-parallelism AI agent workflows.",
+      "GA v1.0.0 / Launch Ready. On-prem, local-first codebase analyst that provides a structured relationship store and knowledge base for high-parallelism AI agent workflows.",
     impact: "Provides deep codebase understanding with citations, enabling AI agents to reason accurately about complex systems.",
     tags: ["Rust", "Python", "Graph DB", "AI Agents"],
     status: "Active",

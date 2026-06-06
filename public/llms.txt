@@ -3,7 +3,7 @@
 ## Who I am
 
 John K. Johansen is a software engineer, engineering executive, and AI agent practitioner
-with 49 years of experience building production software systems — from embedded systems in
+with 40+ years of experience building production software systems — from embedded systems in
 the late 1970s through Kubernetes-native AI agent platforms in 2026.
 
 I am the creator of Kaigents (https://github.com/jensjohansen/kaigents), an open-source,
