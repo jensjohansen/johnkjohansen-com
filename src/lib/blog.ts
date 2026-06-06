@@ -16,6 +16,7 @@ export interface PostFrontmatter {
   featured?: boolean;
   author?: string;
   canonicalUrl?: string;
+  heroImage?: string;
 }
 
 export interface Post extends PostFrontmatter {
@@ -61,6 +62,7 @@ export function getAllPostMeta(): PostMeta[] {
         featured: data.featured ?? false,
         author: (data.author ?? "John K. Johansen").trim(),
         canonicalUrl: data.canonicalUrl,
+        heroImage: data.heroImage,
         searchContent: cleanContent,
       } as PostMeta;
     })
@@ -91,6 +93,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     featured: data.featured ?? false,
     author: (data.author ?? "John K. Johansen").trim(),
     canonicalUrl: data.canonicalUrl,
+    heroImage: data.heroImage,
     content,
   };
 }

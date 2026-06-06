@@ -6,6 +6,7 @@ excerpt: "If your business intelligence depends entirely on OpenAI, Claude, or G
 tags: ["Self-Hosted AI", "Kubernetes", "AMD", "Ryzen AI", "IP Protection", "Silicon Sovereignty", "Open Source"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/sovereign-stack-hero.png"
 ---
 
 For the modern entrepreneur, the greatest threat to your "moat" isn't a competitor—it's your landlord. If your business intelligence depends entirely on OpenAI, Claude, or Gemini, you are building on rented land. Worse, you are paying your landlord in data, allowing them to train their next-generation models on your proprietary workflows.

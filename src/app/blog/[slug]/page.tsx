@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { getAllSlugs, getPostBySlug, formatDate } from "@/lib/blog";
@@ -121,6 +122,20 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           </div>
         </header>
+
+        {/* Hero image */}
+        {post.heroImage && (
+          <div className="mx-auto max-w-3xl px-6 mb-10">
+            <Image
+              src={post.heroImage}
+              alt={post.title}
+              width={1024}
+              height={576}
+              className="rounded-2xl w-full object-cover"
+              priority
+            />
+          </div>
+        )}
 
         {/* Body */}
         <article className="mx-auto max-w-3xl px-6 pb-24">
