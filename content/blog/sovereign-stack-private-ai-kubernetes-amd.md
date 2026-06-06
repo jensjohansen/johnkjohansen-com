@@ -120,7 +120,15 @@ Temporal is a workflow orchestration engine. Kaigents is our AI agent framework 
 
 **Why "durable execution" is a business requirement**: Consider an agent that has been running a complex multi-step task for 45 minutes — researching competitors, drafting a report, querying your internal knowledge base. Without Temporal, that agent's state lives in memory on a single pod. If that pod's node fails, all 45 minutes of work is lost. The agent starts over, consuming more tokens, more time, and producing inconsistency in outputs. Temporal persists every step of every workflow to durable storage as it happens, so when the pod is rescheduled to a healthy node, the agent picks up exactly where it left off. For a 24/7 autonomous AI department, this is the difference between a reliable team member and one who randomly loses their work.
 
-### 8. Vector Store: Qdrant
+### 8. Secrets Management: HashiCorp Vault
+
+Vault is a secrets management platform. It stores, controls access to, and audits every secret in your infrastructure — API keys, database credentials, model endpoint tokens, agent identities, and inter-service certificates.
+
+**Why this is non-negotiable for an AI agent stack**: Human teams can manage secrets through password managers and discipline. AI agent teams cannot — they consume secrets programmatically, at scale, across dozens of concurrent workflows. Without a secrets manager, credentials end up in environment variables baked into container images, in plaintext config files on cluster nodes, or hardcoded into agent prompts. Any one of these is a catastrophic IP and security failure waiting to happen.
+
+Vault solves this by issuing **dynamic, short-lived secrets** to agents at runtime. An agent requests a database credential from Vault, gets one that expires in 15 minutes, uses it, and the credential ceases to exist. There is no persistent secret to steal, no rotation schedule to manage manually, and a complete audit log of every secret access. For human team members, Vault provides a single controlled interface with role-based access — the same secret store serves both your developers and your autonomous agents, with full visibility into who or what accessed what and when.
+
+### 9. Vector Store: Qdrant
 
 Qdrant is your agents' long-term memory — a database optimized for storing and searching vector embeddings, which are the numerical representations of your documents, code, and business knowledge.
 
