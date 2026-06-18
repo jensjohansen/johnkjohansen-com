@@ -3,7 +3,6 @@ import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
 import { FocusAreas } from "@/components/sections/FocusAreas";
-import { Services } from "@/components/sections/Services";
 import { Projects } from "@/components/sections/Projects";
 import { Contact } from "@/components/sections/Contact";
 import { SectionDivider } from "@/components/ui/SectionDivider";
@@ -11,8 +10,8 @@ import { SectionDivider } from "@/components/ui/SectionDivider";
 export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    name: "John K Johansen - AI Solutions & Engineering Advisory",
+    "@type": "Person",
+    name: "John K Johansen",
     image: "https://johnkjohansen.com/logo-icon.png",
     "@id": "https://johnkjohansen.com",
     url: "https://johnkjohansen.com",
@@ -39,7 +38,7 @@ export default function Home() {
       "https://github.com/jensjohansen",
     ],
     description:
-      "Fractional CTO and AI Agent Builder providing architectural guidance, MVP development, and technical transformation for early-stage startups.",
+      "Software engineering executive, AI agent builder, and open-source contributor. Building AI systems that let small teams do big things.",
   };
 
   return (
@@ -55,8 +54,6 @@ export default function Home() {
         <About />
         <SectionDivider />
         <FocusAreas />
-        <SectionDivider />
-        <Services />
         <SectionDivider />
         <Projects />
         <SectionDivider />

@@ -10,7 +10,6 @@ import {
 export const NAV_LINKS = [
   { label: "About", href: "/#about" },
   { label: "Focus", href: "/#focus" },
-  { label: "Services", href: "/#services" },
   { label: "Blog", href: "/blog" },
   { label: "Projects", href: "/#projects" },
   { label: "Contact", href: "/#contact" },
@@ -97,7 +96,7 @@ export const HERO = {
     "I help early-stage startups scale to 100M+ calls without the 100-person overhead. Enterprise architecture on a shoestring budget — backed by 40+ years of building and scaling systems.",
   ctaPrimary: { label: "See What I'm Building", href: "#projects" },
   ctaSecondary: { label: "Connect on LinkedIn", href: SOCIAL_LINKS.linkedin },
-  ctaThird: { label: "Schedule a Strategy Call", href: "https://www.linkedin.com/in/johnkjohansen/" }, // Update with Calendly if available
+  ctaThird: { label: "Connect on LinkedIn", href: SOCIAL_LINKS.linkedin },
 } as const;
 
 // ── About ───────────────────────────────────────────────────
@@ -106,10 +105,10 @@ export const ABOUT = {
     "I'm a hands-on product and engineering executive with over four decades of experience building software systems — from bare-metal infrastructure to cloud-native platforms to AI-powered automation. My career spans enterprise architecture, startup CTO roles, and engineering leadership across fintech, e-commerce, and developer tools.",
     "I've built and led globally distributed, 100% remote engineering organizations, and I'm a strong believer that the best teams are built on mentorship, trust, and asking the right questions — not micromanagement.",
     "These days, I'm focused on the intersection of AI agents and startup efficiency. I believe small, well-tooled teams can outperform organizations ten times their size when they leverage intelligent automation strategically. This conviction led me to build Kaigents, a production-grade substrate for operating AI agent teams in complex enterprise environments.",
-    "Based in Pasadena, California, I work with founders and engineering teams to design and build AI agent systems that handle the work of entire departments — letting humans focus on the creative, strategic work that actually moves the needle.",
+    "Based in Pasadena, California — and outside of my primary role — I remain passionate about working with founders and engineers to design and build AI agent systems that handle the work of entire departments, letting humans focus on the creative, strategic work that actually moves the needle.",
   ],
   quickFacts: {
-    company: "Independent Consultant",
+    company: "Startup Technologist",
     location: "Pasadena, CA",
     education: "Western Governors University",
     programmingLanguages: [
@@ -183,7 +182,7 @@ export interface Project {
   description: string;
   impact?: string;
   tags: string[];
-  status: "Active" | "Maintained" | "Archive";
+  status: "Active" | "Maintained" | "Completed" | "Archive";
   featured?: boolean;
   link?: { label: string; href: string };
 }
@@ -282,9 +281,9 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Enterprise IoT Infrastructure",
-    description: "Architected high-availability systems for real-time asset tracking and IoT telemetry.",
-    impact: "Supports 100k+ devices with sub-second latency and five-nines reliability.",
+    description: "Architected high-availability systems for real-time asset tracking and IoT telemetry during my tenure at Link Labs, Inc. Supported 100k+ devices with sub-second latency and five-nines reliability.",
+    impact: "Supported 100k+ devices with sub-second latency and five-nines reliability.",
     tags: ["IoT", "Kubernetes", "Architecture", "Go"],
-    status: "Maintained",
+    status: "Completed",
   },
 ];
