@@ -279,11 +279,5 @@ export const PROJECTS: Project[] = [
       href: "https://github.com/jensjohansen/ryzen_monitoring_linux",
     },
   },
-  {
-    title: "Enterprise IoT Infrastructure",
-    description: "Architected high-availability systems for real-time asset tracking and IoT telemetry during my tenure at Link Labs, Inc. Supported 100k+ devices with sub-second latency and five-nines reliability.",
-    impact: "Supported 100k+ devices with sub-second latency and five-nines reliability.",
-    tags: ["IoT", "Kubernetes", "Architecture", "Go"],
-    status: "Completed",
-  },
+
 ];
