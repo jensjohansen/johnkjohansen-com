@@ -3,7 +3,7 @@ title: "The End of the $800 Shortcut: What Tariffs Actually Mean for Small E-Com
 subtitle: "Lessons from the IoT supply chain and the collapse of the de minimis era"
 date: "2026-01-19"
 excerpt: "For years, the e-commerce boom was fueled by a $800 duty-free loophole. In early 2026, that loophole officially closed. If you think this is just a 'retail problem,' you aren't looking at the bigger supply chain picture."
-tags: ["E-Commerce", "Supply Chain", "Tariffs", "IoT", "Link Labs"]
+tags: ["E-Commerce", "Supply Chain", "Tariffs", "IoT", "Supply Chain Resilience"]
 featured: false
 author: "John K. Johansen"
 ---
@@ -14,11 +14,11 @@ For the uninitiated, Section 321 "De Minimis" was the $800 threshold that allowe
 
 When that threshold was suspended in 2026, and Section 301 tariffs of 20-30% were slapped on everything from apparel to electronics, the "margin-friendly" e-commerce model didn't just slow down; it evaporated overnight.
 
-But this isn't just a story about cheap clothes and artisanal phone cases. It’s a story about the fragility of the global supply chain—a lesson we learned the hard way in the industrial IoT sector at Link Labs.
+But this isn't just a story about cheap clothes and artisanal phone cases. It’s a story about the fragility of the global supply chain—a lesson we learned the hard way in the industrial IoT sector earlier in my career.
 
 ## The "Canary in the Coal Mine": The Industrial Parallel
 
-At Link Labs, we don't build consumer trinkets. We build mission-critical IoT networking hardware. But our supply chain challenges were the "canary in the coal mine" for what eventually hit e-commerce.
+In my time building industrial hardware, we didn't build consumer trinkets. We built mission-critical IoT networking hardware. But our supply chain challenges were the "canary in the coal mine" for what eventually hit e-commerce.
 
 Our primary suppliers were concentrated in mainland China, Indonesia, and the Philippines. Long before the de minimis threshold became a front-page news item for retail, we were dealing with the reality of "Just-in-Time" hardware production in a world of rising trade friction. 
 
@@ -61,7 +61,7 @@ If you are a small store owner today, you can no longer compete on being the che
 
 ## The Bottom Line
 
-Whether you're building IoT gateways at Link Labs or running a boutique e-commerce site, the lesson of 2026 is the same: **The era of the "frictionless shortcut" is over.**
+Whether you're building IoT gateways for industrial resilience or running a boutique e-commerce site, the lesson of 2026 is the same: **The era of the "frictionless shortcut" is over.**
 
 The global markets are spasming, and the supply chains we took for granted are being cannibalized. The winners will be the ones who recognize that resilience is more valuable than the lowest possible unit cost. 
 
