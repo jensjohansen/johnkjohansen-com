@@ -6,6 +6,7 @@ excerpt: "In 2024, if you wanted production-grade AI, you rented an H100. In ear
 tags: ["Self-Hosted AI", "AMD", "Ryzen AI", "Hardware", "Silicon Sovereignty"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/amd-ryzen-ai-npu-enterprise-chip-hero.png"
 ---
 
 By February 2026, the term "Silicon Sovereignty" has moved from a strategic ambition to a technical reality. As I wrote in [Article #4](./self-hosted-ai-2026.md), the smart money in the enterprise has stopped sending its most valuable intellectual property to the cloud and started bringing its intelligence home.

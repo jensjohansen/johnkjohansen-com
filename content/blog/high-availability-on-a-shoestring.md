@@ -6,6 +6,7 @@ description: "How we achieved enterprise-grade high availability for our AI lab 
 tags: ["Kubernetes", "High Availability", "Infrastructure", "Resilience", "TCO"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 One of the biggest myths in engineering is that "High Availability" (HA) is something you buy from a cloud provider. We are told that unless we pay for "Multi-AZ" deployments and managed load balancers, we aren't "Enterprise Ready."

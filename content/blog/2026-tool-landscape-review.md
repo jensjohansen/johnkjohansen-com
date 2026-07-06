@@ -6,6 +6,7 @@ description: "A practitioner's review of the leading AI coding agents. Why the '
 tags: ["AI Tools", "Zencoder", "Kilo Code", "OpenClaw", "Windsurf", "Cursor"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By March 2026, the AI coding market has split into two distinct camps. 

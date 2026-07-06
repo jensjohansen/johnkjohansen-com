@@ -6,6 +6,7 @@ description: "A guide for CEOs and board members on how to govern autonomous AI 
 tags: ["AI Governance", "Leadership", "Risk Management", "Executive Strategy", "Compliance"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By April 2026, "AI Governance" has moved from the backroom of the engineering department to the boardroom. Non-technical executives are no longer asking *if* they should use AI; they are asking how to use it without creating a brand-destroying liability.

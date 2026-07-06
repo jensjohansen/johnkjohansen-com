@@ -6,6 +6,7 @@ excerpt: "Managing remote teams is fundamentally the same as managing onsite tea
 tags: ["Leadership", "Remote Work", "Management", "Engineering Culture"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 I have spent over 25 years of my 40+ year career managing remote and distributed engineering teams. Long before the 2020 lockdowns, I was building systems with engineers spread across time zones and continents. 

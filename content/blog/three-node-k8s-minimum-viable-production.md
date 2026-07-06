@@ -6,6 +6,7 @@ excerpt: "For years, Kubernetes was marketed as a tool for managing 1,000 nodes.
 tags: ["Kubernetes", "High Availability", "Infrastructure", "Startups", "TCO"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’ve been following my series on [Zero-Dollar Infrastructure](./zero-dollar-infrastructure-stack.md), you know that I’m a firm believer in building for resilience from day one. But "resilience" doesn't mean "expensive."

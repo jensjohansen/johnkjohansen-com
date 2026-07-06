@@ -6,6 +6,7 @@ description: "Why most AI advice for small businesses is wrong. How to use low-c
 tags: ["Small Business", "Automation", "AI Agents", "MindTheStore", "Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’re a small business owner in April 2026, you’re likely exhausted. Between the [tariff-driven supply chain shifts](./near-shore-manufacturing-arbitrage.md) and the constant noise about "AI changing everything," it’s hard to know what is actually a tool and what is just a toy.

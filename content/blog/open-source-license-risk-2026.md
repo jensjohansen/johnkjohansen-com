@@ -6,6 +6,7 @@ description: "Why the AI community's loose use of 'Open Source' is a legal time 
 tags: ["Open Source", "OSS Strategy", "AI Licensing", "Risk Management", "Legal", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By May 2026, the term "Open Source" is being used more as a marketing slogan than a legal definition. In the AI community, we’ve gotten into a dangerous habit of calling any model you can download "Open Source."

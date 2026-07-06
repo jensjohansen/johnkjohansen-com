@@ -6,6 +6,7 @@ excerpt: "An AI agent that fails because of a 500 error or a pod restart isn't a
 tags: ["AI Agents", "Durable Execution", "Temporal", "Kaigents", "Distributed Systems"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, we’ve moved past the "Single-Prompt Chat" era. We are now in the era of multi-step, multi-agent workflows. 

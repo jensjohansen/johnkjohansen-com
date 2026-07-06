@@ -6,6 +6,7 @@ excerpt: "We were told that real-time analytics at petabyte scale required massi
 tags: ["HTAP", "Data Architecture", "Apache Iceberg", "Trino", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you look at the technical debt of a struggling Series A startup, you will almost always find a "data wall." 

@@ -6,6 +6,7 @@ excerpt: "Integrating AI into a regulated enterprise isn't just a technical chal
 tags: ["Security", "Governance", "Enterprise AI", "Compliance", "Risk Management"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As we reach mid-May 2026, the initial "AI Hype" has been replaced by a sober reality: **AI-Empowered Threats** are the new normal. For regulated industries—Fintech, Healthcare, Defense—the question is no longer "How do we use AI?" but "How do we use AI without compromising our security posture?"

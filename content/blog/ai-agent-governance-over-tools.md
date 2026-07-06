@@ -6,6 +6,7 @@ excerpt: "A self-hosted AI assistant became the most-starred GitHub project in h
 tags: ["AI Agents", "Governance", "Enterprise", "Management Process"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In early 2026, a self-hosted personal AI assistant became the most-starred GitHub project in the platform's history — 250,000 stars in roughly 60 days. Developers around the world recognized something real in what the team built: a local AI assistant connected to the messaging apps people already use, with a community plugin ecosystem of over 5,700 skills. Simple to set up, genuinely useful, immediately understandable.

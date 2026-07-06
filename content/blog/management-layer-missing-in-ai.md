@@ -6,6 +6,7 @@ description: "Why even the best AI agents fail without a dedicated management la
 tags: ["AI Governance", "KaiManager", "Engineering Leadership", "Autonomous Agents", "Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By April 2026, the initial euphoria of the "Agentic Revolution" has been replaced by a sober realization: **Scaling an AI team is a management problem, not a technical one.**

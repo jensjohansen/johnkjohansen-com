@@ -6,6 +6,7 @@ excerpt: "The industry is obsessed with model building and fine-tuning. But for 
 tags: ["AI Skills", "Applied AI", "Leadership", "Talent Strategy", "Engineering Education"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In my 40+ years of engineering, I’ve seen this pattern repeat with every major technology shift. When the web arrived, everyone wanted to learn how to write a web browser. When the mobile revolution hit, everyone wanted to build a new operating system. 

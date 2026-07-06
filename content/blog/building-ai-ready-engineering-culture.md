@@ -6,6 +6,7 @@ excerpt: "Integrating AI into your engineering team isn't just about buying a fe
 tags: ["Engineering Culture", "AI Transformation", "Leadership", "AgOps", "Venture Architecture"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 Most engineering managers in May 2026 are still trying to "sprinkle AI" on top of their existing workflows. They purchase a few thousand copilot licenses, distribute them to their developers, and expect a linear 20% to 30% boost in feature delivery. 

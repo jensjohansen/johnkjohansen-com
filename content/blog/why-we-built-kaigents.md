@@ -6,6 +6,7 @@ description: "A deep dive into the philosophy behind the Kaigents framework. Why
 tags: ["Kaigents", "Autonomous Agents", "Venture Architecture", "AgOps", "Engineering Management"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 Last week, we [launched Kaigents v1.0.0 GA](./kaigents-ga-launch.md). It was the culmination of months of experimentation in our [AMD K8s lab](./kubernetes-for-startups.md). 

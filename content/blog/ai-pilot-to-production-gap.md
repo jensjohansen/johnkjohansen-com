@@ -6,6 +6,7 @@ description: "Analyzing the 'Observability Wall' and the 'Governance Gap' that s
 tags: ["AI Strategy", "Engineering Leadership", "Governance", "Observability", "Production AI"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By the end of March 2026, the industry is littered with the corpses of "AI Pilot Programs." We’ve seen hundreds of companies announce successful POCs (Proof of Concepts) only to quietly abandon them three months later.

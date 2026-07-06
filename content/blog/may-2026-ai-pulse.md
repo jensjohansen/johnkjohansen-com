@@ -6,6 +6,7 @@ description: "Reflecting on the state of AI in May 2026. From Zencoder's leap to
 tags: ["AI Trends", "Zencoder", "Sovereign AI", "Venture Architecture", "AgOps"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As we sit here in early May 2026, the AI landscape has shifted significantly since the beginning of the year. The "early adopter" phase is over, and we are now in the era of **Operational Maturity**.

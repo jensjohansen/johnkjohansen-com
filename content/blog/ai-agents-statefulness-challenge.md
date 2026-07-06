@@ -6,6 +6,7 @@ description: "Why most AI agents forget what they are doing halfway through a ta
 tags: ["AI Engineering", "State Management", "Durable Execution", "Autonomous Agents", "Temporal"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By May 2026, we’ve moved past the "Chatbot" era and into the "Agent" era. But many developers are hitting a frustrating wall: **The Goldfish Effect.**

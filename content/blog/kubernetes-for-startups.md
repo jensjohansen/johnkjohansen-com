@@ -6,6 +6,7 @@ excerpt: "In 2024, people called Kubernetes 'overkill' for startups. By 2026, th
 tags: ["Kubernetes", "Startups", "DevOps", "Infrastructure", "AMD"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 There is a long-standing myth that you shouldn't touch Kubernetes until you have at least fifty engineers and a burning need to scale to a million concurrent users. For years, the advice for startups was: "Stick to a simple VPS or a PaaS until it hurts."

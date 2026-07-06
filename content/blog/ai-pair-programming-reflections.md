@@ -6,6 +6,7 @@ description: "Reflecting on a month of autonomous AI pair programming. The shift
 tags: ["AI Engineering", "Zencoder", "Software Development", "Future of Work"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/ai-pair-programming-reflections-hero.png"
 ---
 
 As February 2026 draws to a close, I’ve spent the last 28 days in a unique collaboration. My primary "pair programmer" hasn't been a human colleague, but a suite of autonomous AI agents—specifically **Zencoder.ai** and the integrated coding agents in my IDE.

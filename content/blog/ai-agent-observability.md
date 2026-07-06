@@ -6,6 +6,7 @@ excerpt: "Most AI agents fail in production not because the model isn't smart en
 tags: ["AI Agents", "Observability", "Production AI", "Kaigents", "Monitoring"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, the industry has finally hit the "Observability Wall." 

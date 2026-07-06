@@ -6,6 +6,7 @@ excerpt: "AI automation is destroying the traditional job market. But it's also 
 tags: ["Dignified Income", "MindTheStore", "Future of Work", "AI Transformation", "Social Impact"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 The most dangerous aspect of the artificial intelligence transition in May 2026 is not the loss of corporate payroll checks—it is the systemic loss of human **Dignity**.

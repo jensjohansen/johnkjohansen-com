@@ -6,6 +6,7 @@ description: "Why the license is only half the story. How to evaluate the long-t
 tags: ["Open Source", "OSS Strategy", "AI Tools", "Vendor Risk", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As I wrote in [Article #14](./open-source-ai-landscape-2026.md), the 2026 AI ecosystem is built on the shoulders of open source. But for a [Venture Architect](./ai-pair-programming-reflections.md), not all "open" projects are created equal.

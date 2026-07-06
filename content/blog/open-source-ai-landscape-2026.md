@@ -6,6 +6,7 @@ excerpt: "Building an AI startup in 2026 isn't just about picking an LLM. It's a
 tags: ["Open Source", "Kubernetes", "AI Infrastructure", "SecOps", "Startup Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, the "Golden Age" of permissive open-source AI is facing its first real test. We’ve seen the "License Shock" of 2024, and we’ve watched as once-permissive libraries shifted to more restrictive business models. 

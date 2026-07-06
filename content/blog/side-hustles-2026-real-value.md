@@ -6,6 +6,7 @@ description: "Why the side-hustle market is collapsing for those who rely on AI-
 tags: ["Side Hustle", "MindTheStore", "AI Disruption", "E-Commerce", "Economy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you spend any time on social media in early 2026, you’ll see the desperation in the "Side Hustle" community. The old playbooks—dropshipping generic products, selling AI-generated "children’s books" on Amazon, or building "content farms" for ad revenue—have all hit a wall.

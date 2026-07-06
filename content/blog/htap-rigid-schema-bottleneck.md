@@ -6,6 +6,7 @@ excerpt: "HTAP promises the best of both worlds—transactional speed and analyt
 tags: ["Data Architecture", "HTAP", "Performance", "JSON", "ClickHouse", "Venture Architecture"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 I’ve spent 40+ years optimizing data systems, from the era of carefully indexed relational tables in Db2 to the current world of petabyte-scale stream processing. Over those decades, I’ve learned a painful truth: the most "technically correct" architectural design—the one that looks beautiful on a whiteboard and satisfies every purist's desire for normal forms—is often the very one that kills your performance at scale.

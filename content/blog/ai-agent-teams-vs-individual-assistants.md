@@ -6,6 +6,7 @@ excerpt: "AI assistants augment individuals, but AI agent teams augment the enti
 tags: ["AI Agents", "Orchestration", "AgOps", "Engineering Leadership", "Kaigents"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/ai-agent-teams-vs-individual-assistants-hero.png"
 ---
 
 I’ve spent 40+ years watching technology attempt to solve the "productivity" problem. From the first spreadsheets to the current LLM explosion, the pattern is usually the same: we give a single human a more powerful tool and hope they work 10% faster. 

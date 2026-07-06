@@ -6,6 +6,7 @@ excerpt: "In 2024, everyone was a 'Prompt Engineer.' In early 2026, we've realiz
 tags: ["AI Agents", "Engineering Leadership", "Governance", "Prompts", "Best Practices"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’ve spent any time in the AI agent world, you’ve heard the term "System Prompt." It’s the block of text you give to an LLM to tell it who it is and what it should do. In the early days of 2023 and 2024, "System Prompts" were treated as magic spells—get the words exactly right, and the agent behaves.

@@ -6,6 +6,7 @@ description: "How AI is changing the landscape for part-time and flexible work, 
 tags: ["Economy", "AI Disruption", "Flexible Work", "MindTheStore", "Social Impact"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By March 2026, the data on the "Agentic Economy" is starting to come in, and it paints a complex picture for part-time and flexible work. While high-end consulting is booming, the "entry-level" part-time economy is under severe pressure.

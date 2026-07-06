@@ -6,6 +6,7 @@ excerpt: "For twenty years, 'add a read replica' was the default answer to scali
 tags: ["Data Architecture", "AI Agents", "Databases", "Distributed Systems"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In August 2024, GitHub experienced a significant availability incident—36 minutes of total service disruption—caused by a misconfiguration in their database infrastructure. It was a reminder that even for the giants of the industry, the "invisible plumbing" of the database layer is the most fragile part of the stack.

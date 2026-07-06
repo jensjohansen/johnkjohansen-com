@@ -6,6 +6,7 @@ description: "Why you can't 'bolt on' security later. The essential security bas
 tags: ["SecOps", "Security", "Startups", "Risk Management", "Compliance", "Venture Architect"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In the 40+ years I’ve been building software, the most expensive mistake I’ve seen startups make is treating security as a "Later" problem. They wait until they have their first Enterprise customer, and then they realize their entire architecture is a liability.

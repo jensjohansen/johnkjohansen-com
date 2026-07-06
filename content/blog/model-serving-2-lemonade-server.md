@@ -6,6 +6,7 @@ description: "How Lemonade Server and AMD Ryzen AI hardware replaced Ollama in o
 tags: ["Self-Hosted AI", "Lemonade Server", "AMD", "Ryzen AI", "Model Serving", "NPU"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As I wrote in [Article #24](./running-llms-locally-2026.md), our early self-hosted experiments relied on **Ollama**. It was a great entry point, but by March 2026, we had outgrown it. 

@@ -6,6 +6,7 @@ description: "How the Model Context Protocol (MCP) bridged the gap between our I
 tags: ["MCP", "Zencoder", "Kaigents", "Tool Use", "Autonomous Agents"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 A "thinking" AI is a novelty. An "acting" AI is a revolution.

@@ -6,6 +6,7 @@ description: "Why Kubernetes is the right choice for startups, but a dangerous o
 tags: ["Kubernetes", "Infrastructure", "Learning Curve", "Engineering Management", "AgOps"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 I am a long-time champion of [Kubernetes for startups](./kubernetes-for-startups.md). It is the only platform that provides the self-healing, cloud-agnostic, and [high-availability](./high-availability-on-a-shoestring.md) foundations that an AI-augmented enterprise requires.

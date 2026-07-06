@@ -6,6 +6,7 @@ description: "Analysis of the leading open-weight LLMs in April 2026. Why Qwen3 
 tags: ["Self-Hosted AI", "LLM", "Open Source", "Qwen3", "GPT-OSS", "Llama", "Mistral"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As I wrote in [Article #49](./reasoning-models-shoestring-gpt-oss-qwen3.md), the "Trillion Parameter" hype has faded. By mid-April 2026, the industry has settled on a more practical truth: **The most valuable model is the smallest one that can reliably execute your business logic.**

@@ -6,6 +6,7 @@ excerpt: "Docker Compose is great for a demo. But when you're running autonomous
 tags: ["Kubernetes", "Docker", "DevOps", "AI Infrastructure", "AgOps"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 I’ve spent 40+ years watching infrastructure evolve. I’ve seen the pendulum swing from the centralized bare-metal mainframes of the 1980s to the decentralized client-server architectures of the 90s, the virtual machines of the 2000s, and the cloud-native microservices of today. 

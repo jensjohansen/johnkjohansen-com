@@ -6,6 +6,7 @@ excerpt: "In the rush to build fully autonomous AI agents, we've started treatin
 tags: ["AI Agents", "Human-in-the-Loop", "Engineering Management", "Governance", "Process Design"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 2026, the phrase "Full Autonomy" has become a double-edged sword in the enterprise. 

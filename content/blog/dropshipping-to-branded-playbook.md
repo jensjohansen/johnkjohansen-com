@@ -6,6 +6,7 @@ excerpt: "Exhausted entrepreneurs are looking for an exit or a pivot. The old dr
 tags: ["E-Commerce", "Kairon Retail", "AI Agents", "Branding", "Playbook"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’ve been following my recent articles on the [e-commerce clobbering](./temu-playbook-collapse.md) of 2026, you know that the "middleman" model is officially obsolete. But knowing that the model is dead is different from knowing how to build the one that replaces it.

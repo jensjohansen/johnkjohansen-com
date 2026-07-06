@@ -6,6 +6,7 @@ description: "Why most Kubernetes 'cost tools' are a waste of time. The three ar
 tags: ["Kubernetes", "Cost Optimization", "Infrastructure", "TCO", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 When I talk to startup CTOs about [Kubernetes](./kubernetes-for-startups.md), their biggest complaint is almost always **Cost.** They move to the cloud to "save money" and end up with a $5,000 monthly bill for a handful of microservices.

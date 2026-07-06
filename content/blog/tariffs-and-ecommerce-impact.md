@@ -6,6 +6,7 @@ excerpt: "For years, the e-commerce boom was fueled by a $800 duty-free loophole
 tags: ["E-Commerce", "Supply Chain", "Tariffs", "IoT", "Supply Chain Resilience"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By mid-January 2026, the shockwaves of the "De Minimis Collapse" had finally reached every corner of the American economy. 

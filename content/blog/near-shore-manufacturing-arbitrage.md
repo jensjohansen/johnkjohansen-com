@@ -6,6 +6,7 @@ description: "How the 2026 tariff landscape is forcing a pivot to Mexico and Can
 tags: ["Supply Chain", "Tariffs", "Near-Shoring", "E-Commerce", "Market Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 The 2026 tariff landscape has clobbered the traditional e-commerce playbook. As I wrote in [Article #10](./temu-playbook-collapse.md), the era of "cheap stuff from mainland China" is effectively over for small boutique brands. 

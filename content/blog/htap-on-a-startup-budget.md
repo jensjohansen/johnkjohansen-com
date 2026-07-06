@@ -6,6 +6,7 @@ description: "How to build a world-class real-time analytics engine without the 
 tags: ["Data Engineering", "HTAP", "ClickHouse", "Event Sourcing", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 One of the most valuable lessons I learned during my time at **DevFactory** was that you don't need a massive AWS bill to run a petabyte-scale analytics engine. In fact, some of the most scalable systems I’ve ever seen were built using a handful of open-source patterns and a lot of architectural discipline.

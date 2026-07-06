@@ -6,6 +6,7 @@ excerpt: "For a decade, microservices were the default choice for anyone with 'S
 tags: ["Startup Strategy", "Architecture", "Microservices", "Monolith", "Engineering Leadership"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you look at the technical post-mortems of the 2020-2024 startup wave, you’ll find a recurring theme: **Early-Onset Microservices.** 

@@ -6,6 +6,7 @@ description: "Why persistent storage is the hardest part of bare-metal Kubernete
 tags: ["Kubernetes", "Storage", "Rook-Ceph", "Infrastructure", "Data Engineering"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 When a startup moves from a managed cloud service to their own [local Kubernetes cluster](./zero-dollar-infrastructure-stack.md), they usually hit a wall on Day Two. That wall is **Persistent Storage.**

@@ -6,6 +6,7 @@ description: "How to explain the technical and economic impact of autonomous age
 tags: ["AI Strategy", "Leadership", "Board Relations", "Engineering Management", "Governance"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As we move into late April 2026, the era of the "AI Vision Board" is over. Your board of directors no longer wants to see slides about "The Future of Intelligence." They want to see **Operational Impact, Risk Mitigation, and Cost Efficiency.**

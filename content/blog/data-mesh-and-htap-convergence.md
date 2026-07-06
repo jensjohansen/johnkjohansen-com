@@ -6,6 +6,7 @@ description: "How to combine the organizational power of a Data Mesh with the te
 tags: ["Data Engineering", "Data Mesh", "HTAP", "Architecture", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As I wrote in [Article #6](./htap-not-a-buzzword.md), the move toward **HTAP (Hybrid Transactional/Analytical Processing)** is a technical necessity for the agentic enterprise. But as your startup grows, you hit a different wall: **The Data Monolith.**

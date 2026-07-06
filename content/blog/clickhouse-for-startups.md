@@ -6,6 +6,7 @@ description: "Why ClickHouse is the secret weapon for AI startups needing real-t
 tags: ["Data Engineering", "ClickHouse", "Analytics", "HTAP", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As an AI-driven startup, you are likely generating a massive amount of telemetry. Every autonomous loop, every agent decision, and every user interaction is a data point. In the early days, you might try to shove all this into a standard relational database like PostgreSQL. 

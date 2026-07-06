@@ -6,6 +6,7 @@ excerpt: "We've all seen the AI agent demo that looks like magic. But when that 
 tags: ["AI Agents", "Production AI", "Engineering Management", "Governance", "Best Practices"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 2026, the "Year of the Pilot" (2025) has given way to the "Year of the Reality Check." 

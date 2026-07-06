@@ -6,6 +6,7 @@ excerpt: "The industry tells you to 'move fast and break things.' But some thing
 tags: ["Startup Strategy", "Architecture", "MVP", "Technical Debt", "Engineering Leadership"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’ve spent 40+ years in the software trenches, you’ve developed a sixth sense for "Success Disasters." These are the projects that achieve product-market fit so quickly that they collapse under their own weight because the "week one" architecture wasn't ready for year three.

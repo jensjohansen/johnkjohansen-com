@@ -6,6 +6,7 @@ description: "Why prescriptive system prompts are the wrong way to govern autono
 tags: ["AI Governance", "Behavioral Guidance", "Zencoder", "Engineering Management", "Agents"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 One of the most profound shifts we documented in March 2026 was the move from **Instruction** to **Guidance**. 

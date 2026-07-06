@@ -6,6 +6,7 @@ excerpt: "Choosing your first engineering hire is the most critical decision a f
 tags: ["Startup Strategy", "Engineering Leadership", "Fractional CTO", "AI Agents", "Bootstrapping"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/first-engineering-hire-fractional-cto-hero.png"
 ---
 
 You have a validated idea. You have some early traction. Now, you need to build the product. 

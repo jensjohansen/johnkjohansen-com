@@ -6,6 +6,7 @@ excerpt: "In 2024, data sovereignty was a GDPR checkbox. In early 2026, it is a 
 tags: ["Self-Hosted AI", "Data Sovereignty", "Legal Strategy", "Compliance", "IP Protection"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 2026, the term "Data Sovereignty" has moved beyond its origins in geography and into the realm of **Intelligence Ownership**. 

@@ -6,6 +6,7 @@ description: "Analysis of the breakthrough in autonomous task execution. Why Zen
 tags: ["AI Engineering", "Zencoder", "Autonomous Agents", "Workflow Automation"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In the first two months of 2026, we were mostly using AI as an "Advanced Copilot." We would ask a question, receive a code snippet, and manually integrate it. It was faster than Googling, but the human was still the primary "engine" of implementation.

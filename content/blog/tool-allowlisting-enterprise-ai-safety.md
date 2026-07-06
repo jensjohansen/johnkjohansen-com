@@ -6,6 +6,7 @@ excerpt: "The AI news cycle loves to talk about model reasoning and tool use. Bu
 tags: ["AI Agents", "Cybersecurity", "Governance", "Kaigents", "Production AI"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 2026, the industry has seen enough "Agentic Breaches" to finally get serious about security. 

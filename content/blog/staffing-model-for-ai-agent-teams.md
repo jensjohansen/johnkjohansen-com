@@ -6,6 +6,7 @@ description: "How to hire and organize a startup team when AI agents handle 80% 
 tags: ["Engineering Leadership", "Hiring", "AI Teams", "Venture Architect", "Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By April 2026, the question for every startup founder has shifted from "How many engineers do I need?" to "What *kind* of humans do I need to manage my AI agents?"

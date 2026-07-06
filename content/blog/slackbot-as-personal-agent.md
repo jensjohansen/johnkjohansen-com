@@ -6,6 +6,7 @@ excerpt: "Salesforce's January 2026 launch of the new Slackbot marks a shift in 
 tags: ["AI Agents", "Salesforce", "Slack", "Enterprise Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 On January 13, 2026, Salesforce officially flipped the switch on the "new" Slackbot. It was no longer just a helpful reminder tool; it was generally available as a "Personal Agent for Work." 

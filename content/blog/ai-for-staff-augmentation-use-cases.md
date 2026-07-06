@@ -6,6 +6,7 @@ description: "Why most 'AI replacement' stories are exaggerated. The five specif
 tags: ["AI Strategy", "Staff Augmentation", "Engineering Leadership", "Productivity", "Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By April 2026, the media narrative is full of "AI replacing humans" stories. But in the actual trenches of startup engineering, we are seeing a different reality. 

@@ -6,6 +6,7 @@ description: "How a vendor's pricing model can be a bigger risk than their techn
 tags: ["AI Strategy", "Vendor Lock-in", "Cost Optimization", "Risk Management"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As we saw in the [Windsurf pivot](./windsurf-pricing-pivot-silicon-sovereignty.md), the most significant risk to your AI strategy in 2026 isn't a lack of features. It’s the **Pricing Model.**

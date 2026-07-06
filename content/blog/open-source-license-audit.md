@@ -6,6 +6,7 @@ excerpt: "In 2024, an open-source audit was something you did right before an ex
 tags: ["Compliance", "SecOps", "Open Source", "Startup Strategy", "Cybersecurity"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By mid-January 2026, the honeymoon phase of "just use whatever library works" has officially ended for the startup ecosystem. 

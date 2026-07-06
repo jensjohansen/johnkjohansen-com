@@ -6,6 +6,7 @@ excerpt: "In 2024, people thought you needed a $10,000 monthly AWS bill to run a
 tags: ["Startup Strategy", "AI Agents", "Kubernetes", "Self-Hosted AI", "TCO"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/zero-dollar-infrastructure-stack-hero.png"
 ---
 
 If you look at the pitch decks of the 2023-2024 AI wave, you’ll see a common line item: "Infrastructure & Compute." For most startups, this meant burning 40% of their seed round on GPU credits and SaaS subscriptions. They were building on rented land, paying "success taxes" to cloud providers before they even found product-market fit.

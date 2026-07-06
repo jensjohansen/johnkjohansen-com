@@ -6,6 +6,7 @@ description: "Why 40+ years of engineering experience is more valuable today tha
 tags: ["Engineering Leadership", "Domain Expertise", "Career Advice", "AI Disruption", "Venture Architect"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As we close out March 2026, I am struck by a recurring irony. In a world where [Autonomous AI Agents](./zencoder-leap-to-autonomy.md) can write code, manage infrastructure, and run supply chains at near-zero cost, the most valuable asset in the enterprise has become **The Human with 40 Years of Hindsight.**

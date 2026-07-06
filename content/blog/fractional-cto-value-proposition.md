@@ -6,6 +6,7 @@ excerpt: "Startups often struggle to find the 'perfect' full-time CTO. The Fract
 tags: ["Fractional CTO", "Leadership", "Startup Strategy", "AI Transition"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/fractional-cto-value-proposition-hero.png"
 ---
 
 Finding a Chief Technology Officer (CTO) is one of the most difficult challenges a founder faces. You need someone who is a visionary, but also an operator. Someone who can architect a complex system, but also recruit a team. Someone who understands the board's concerns, but can still jump into a code review.

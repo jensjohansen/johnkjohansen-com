@@ -6,6 +6,7 @@ description: "Why technical performance is often the wrong metric for choosing a
 tags: ["Startup Strategy", "Tech Stack", "Hiring", "Engineering Leadership", "Venture Architect"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As a [Venture Architect](./ai-pair-programming-reflections.md) with 40+ years of experience, I am often asked to help startups choose their initial tech stack. 

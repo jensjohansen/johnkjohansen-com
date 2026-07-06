@@ -6,6 +6,7 @@ excerpt: "45% of Fortune 500 companies had autonomous AI agents in production by
 tags: ["AI Agents", "Enterprise", "Management", "Autonomous AI"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By the time January 2026 arrived, the numbers were striking enough to pause on. According to McKinsey, 45% of Fortune 500 companies had autonomous AI agents running in production — up from 8% just a year earlier. At the same time, research from Digital Applied found that 88% of AI agent pilots never make it to production at all.

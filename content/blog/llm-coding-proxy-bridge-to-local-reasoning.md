@@ -6,6 +6,7 @@ description: "How a simple proxy unlocked the power of local reasoning models (G
 tags: ["Self-Hosted AI", "LLM Proxy", "Zencoder", "Kilo Code", "Lemonade Server"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By early March 2026, our [Silicon Sovereignty](./amd-ryzen-ai-npu-enterprise-chip.md) experiment was a technical success. We had a six-node Kubernetes cluster running **GPT-OSS 20B** and **Qwen3 Coder 30B** on AMD NPUs, achieving inference speeds that rivaled mid-tier commercial APIs.

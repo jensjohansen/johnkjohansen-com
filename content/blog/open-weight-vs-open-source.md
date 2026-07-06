@@ -6,6 +6,7 @@ description: "Why 'Open Weights' like Llama and Qwen aren't truly 'Open Source' 
 tags: ["Open Source", "Licensing", "Sovereign AI", "Legal Risk", "Venture Architecture"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 We rely heavily on [GPT-OSS](./lemonade-server-optimizing-llms-amd.md) and [Qwen3](./self-hosted-ai-protecting-ip.md) in our [Sovereign AI Lab](./zero-dollar-infrastructure-stack.md). They provide the reasoning power that makes [autonomous agents](./zencoder-leap-to-autonomy.md) possible without cloud lock-in.

@@ -6,6 +6,7 @@ excerpt: "The dream of the one-human $1B company is the headline. But the realit
 tags: ["Startup Strategy", "AI Agents", "Human-AI Synergy", "Creativity", "Venture Architecture"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/startup-that-runs-on-ai-agents-hero.png"
 ---
 
 In my 40+ years of engineering, I have seen the "startup" model evolve from the garage-based teams of the 1980s to the massive, venture-backed organizations of the 2010s. But as we sit in 2026, we are witnessing the most radical shift yet: the rise of the **AI-Native Startup.**

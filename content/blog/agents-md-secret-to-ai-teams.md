@@ -6,6 +6,7 @@ description: "Why traditional system prompts fail for long-running tasks. How we
 tags: ["AI Governance", "Zencoder", "Kilo Code", "Workflow Management", "Autonomous Agents"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In the early days of AI assistants, we spent our time perfecting the "System Prompt." We tried to pack every instruction, every coding standard, and every project goal into a single, massive block of text.

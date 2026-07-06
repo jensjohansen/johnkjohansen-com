@@ -6,6 +6,7 @@ description: "Transitioning from Cloud to Sovereign AI Lab means moving the cost
 tags: ["Infrastructure", "Sovereign AI", "Homelab", "Energy Efficiency", "Engineering Management"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 Last month, we celebrated our [Silicon Sovereignty](./amd-ryzen-ai-npu-enterprise-chip.md) and the power of our [Lemonade Server](./lemonade-server-optimizing-llms-amd.md) hosted LLMs. We proved that we can run **GPT-OSS 20B** and **Qwen3 30B** with better speed and privacy than the cloud.

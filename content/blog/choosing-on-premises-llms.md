@@ -6,6 +6,7 @@ excerpt: "Choosing an on-premises LLM in 2026 is no longer about finding the big
 tags: ["Self-Hosted AI", "LLMs", "Qwen", "AMD", "Kubernetes"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, the local LLM scene had become a victim of its own success. Every week, a new model family—Mistral, Phi, Llama, DeepSeek, Qwen—would drop a new variant. For the enterprise CTO trying to build a self-hosted AI lab, this led to a specific kind of "choice paralysis." 

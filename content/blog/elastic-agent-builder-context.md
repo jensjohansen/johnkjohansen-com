@@ -6,6 +6,7 @@ excerpt: "On January 23, 2026, Elastic announced the General Availability of the
 tags: ["AI Agents", "Elastic", "Search", "Enterprise AI", "Automation"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 On January 23, 2026, Elastic officially reached General Availability for their Agent Builder. For many in the enterprise space, this was the moment "Retrieval" finally became a first-class citizen in the agentic stack.

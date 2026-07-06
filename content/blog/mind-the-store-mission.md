@@ -6,6 +6,7 @@ description: "The mission of MindTheStore.ai: Helping seniors, students, and at-
 tags: ["MindTheStore", "Social Impact", "Side Hustle", "AI Empowerment", "Venture Architecture"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 I am 65 years old. I have spent [40+ years](./forty-years-of-engineering.md) in the trenches of software engineering and IT management. I should be looking forward to a quiet retirement.

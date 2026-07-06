@@ -6,6 +6,7 @@ description: "Why the darling of the 2024 AI coding wave is struggling to keep p
 tags: ["AI Tools", "Cursor", "Zencoder", "Autonomous Agents", "Software Development"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In the 40+ years I’ve spent in software engineering, I’ve seen this pattern repeat countless times. A tool emerges that is so disruptive, so transformative, that it becomes the "default" overnight. In 2024 and 2025, that tool was **Cursor**. 

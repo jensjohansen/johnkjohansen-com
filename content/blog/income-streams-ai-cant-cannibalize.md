@@ -6,6 +6,7 @@ description: "How to design a business or side hustle that is immune to AI autom
 tags: ["Economy", "Side Hustle", "AI Ethics", "MindTheStore", "Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 As I wrote in [Article #54](./side-hustles-2026-real-value.md), the "Fad Economy" of AI-generated junk is collapsing. By late April 2026, we’ve seen a clear separation between businesses that are being eaten by AI and those that are being fueled by it.

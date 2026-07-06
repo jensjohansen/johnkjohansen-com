@@ -6,6 +6,7 @@ description: "How to build 'Self-Aware' AI agents that know when to stop and ask
 tags: ["AI Engineering", "HITL", "Safety", "Governance", "Autonomous Agents"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 One of the most dangerous things you can do in 2026 is deploy a "stubborn" AI agent—one that will continue to try and solve a problem even when it is clearly out of its depth. This is how you end up with deleted databases and brand-killing social media posts.

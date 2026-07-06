@@ -6,6 +6,7 @@ excerpt: "In May 2025, an on-premise AI lab sounded like a hobbyist's dream. By 
 tags: ["Self-Hosted AI", "AMD", "Kubernetes", "IP Protection", "Local LLMs"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By early 2026, the honeymoon period with cloud-based AI providers was over for many startup CTOs. The realization that every prompt, every snippet of proprietary code, and every internal strategy document was being ingested, indexed, and used to train the next iteration of a model that might eventually compete with them had finally set in.

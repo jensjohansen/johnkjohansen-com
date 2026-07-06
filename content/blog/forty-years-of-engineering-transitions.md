@@ -6,6 +6,7 @@ excerpt: "I’ve seen the pendulum swing from centralized to decentralized four 
 tags: ["Engineering Leadership", "Reflections", "Career Wisdom", "AI Strategy", "History"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/forty-years-of-engineering-transitions-hero.png"
 ---
 
 By May 2026, the artificial intelligence agent revolution has officially moved from a series of high-interest technology demos to a daily, running operational reality. We’ve witnessed the GA releases of massive enterprise platforms, the rapid collapse of the traditional dropshipping model, and the emergence of a fierce, self-hosted drive toward "Silicon Sovereignty." 

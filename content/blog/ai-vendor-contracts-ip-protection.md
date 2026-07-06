@@ -6,6 +6,7 @@ excerpt: "In the rush to adopt AI, most companies are signing vendor contracts t
 tags: ["Self-Hosted AI", "IP Protection", "Legal Strategy", "Enterprise AI", "Contracts"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, the first wave of "AI Contract Regret" has hit the enterprise market. 

@@ -6,6 +6,7 @@ excerpt: "In 2024, GitOps was seen as a complex enterprise pattern. In early 202
 tags: ["Kubernetes", "GitOps", "DevOps", "Infrastructure as Code", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’ve ever found yourself saying, *"I just need to log in to the server and tweak one config setting,"* you are building technical debt that will eventually bankrupt your agility.

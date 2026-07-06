@@ -6,6 +6,7 @@ excerpt: "Most AI agents today are 'goldfish.' They are brilliant for a single p
 tags: ["AI Agents", "Memory", "Vector Databases", "Temporal", "Kaigents"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 2026, the industry has finally hit the "Memory Wall." 

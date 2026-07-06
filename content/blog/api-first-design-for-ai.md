@@ -6,6 +6,7 @@ description: "Why AI agents need clean APIs to work effectively. The move from U
 tags: ["API Design", "Architecture", "AI Agents", "Startups", "Venture Architect"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In the 40+ years I’ve been building systems, I’ve seen dozens of "shortcuts" that startups take to get to market faster. The most common one in the 2020s was skipping the API and building a "Monolithic UI" where the business logic is buried inside the frontend code.

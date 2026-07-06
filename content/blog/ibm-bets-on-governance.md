@@ -6,6 +6,7 @@ excerpt: "While the rest of the industry was racing to build the fastest model, 
 tags: ["AI Agents", "IBM", "Governance", "Process Optimization"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By mid-January 2026, the AI news cycle had stabilized into a predictable pattern. Every Tuesday, a new open-weight model would claim a 3% improvement in coding benchmarks. Every Thursday, a startup would announce a "revolutionary" wrapper around a public API. But the announcement that actually mattered for the Fortune 500 came from a much older source.

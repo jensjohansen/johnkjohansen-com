@@ -6,6 +6,7 @@ description: "Exploring the social impact of AI automation on unskilled labor an
 tags: ["AI Ethics", "Automation", "Social Impact", "MindTheStore"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/the-unskilled-labor-question-hero.png"
 ---
 
 As we watch the rapid integration of **Autonomous AI Agents** into the global economy, the conversation usually focuses on the "knowledge worker." We talk about how software engineers, marketing managers, and analysts are becoming 10x more productive. 

@@ -6,6 +6,7 @@ excerpt: "Automation has historically benefited the owners of capital. In the AI
 tags: ["Dignified Income", "Economics", "AI Strategy", "MindTheStore"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/the-automation-dividend-hero.png"
 ---
 
 In my 40+ years of engineering, I have seen waves of automation reshape industries. Each wave—from the mainframe to the cloud—promised efficiency and growth. And while those promises were often met, the "dividend" of that efficiency almost always flowed upward, leaving the displaced workers to scramble for what remained.

@@ -6,6 +6,7 @@ excerpt: "In 2024, a private fork was a 'quick hack.' In early 2026, it is a tec
 tags: ["Open Source", "Startup Strategy", "Risk Management", "Engineering Leadership", "Technical Debt"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 If you’ve been following my series on [Open Source Strategy](./open-source-contribution-strategy.md), you know that I treat the relationship with the community as a business partnership. But even the best partnerships have moments of friction. 

@@ -6,6 +6,7 @@ excerpt: "We were told that Event Sourcing was too complex and HTAP was too expe
 tags: ["Data Architecture", "HTAP", "Event Sourcing", "Apache Iceberg", "Trino"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In [Article #6](./htap-not-a-buzzword.md), I made the case that HTAP (Hybrid Transactional/Analytical Processing) is the pattern that separates successful scale-ups from funding failures. But to truly unlock the power of HTAP, you need a specific way of thinking about your data.

@@ -6,6 +6,7 @@ description: "A framework for evaluating AI agent platforms in 2026. Why durabil
 tags: ["AI Strategy", "Agent Platforms", "Kaigents", "Technical Due Diligence", "Startups"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By April 2026, every enterprise software vendor has added an "Agent Platform" to their marketing. If you’re a CTO or a founder, you are being bombarded with demos of "magic" bots that can supposedly run your entire company.

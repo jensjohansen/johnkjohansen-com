@@ -6,6 +6,7 @@ excerpt: "The VC-backed 'burn' model is dead. In 2026, the most successful found
 tags: ["Startup Strategy", "AI Strategy", "Bootstrapping", "Efficiency", "Creativity"]
 featured: true
 author: "John K. Johansen"
+heroImage: "/images/blog/ai-strategy-for-founders-results-without-burn-hero.png"
 ---
 
 In the prior era of startups, "growth at all costs" was the mandate. You raised a massive seed round, hired twenty engineers, and burned $200K a month to find product-market fit. 

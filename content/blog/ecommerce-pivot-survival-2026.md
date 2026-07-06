@@ -6,6 +6,7 @@ excerpt: "We are 45 days into the new tariff regime. The generic dropshipping ma
 tags: ["E-Commerce", "Market Forces", "Kairon Retail", "AI Agents", "Supply Chain"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 15, 2026, the mid-winter reports for the e-commerce sector are in. The news is as violent as we predicted in [Article #9](./tariffs-and-ecommerce-impact.md). The suspension of the *de minimis* $800 duty-free threshold has triggered a bankruptcy wave among small resellers who relied on direct-from-China low-margin shipping.

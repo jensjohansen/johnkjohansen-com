@@ -6,6 +6,7 @@ description: "Why we chose GPT-OSS 20B and Qwen3 Coder 30B as the foundation of 
 tags: ["Self-Hosted AI", "LLM", "GPT-OSS", "Qwen3", "AMD", "Ryzen AI"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By mid-March 2026, the hype around "trillion-parameter" models has largely been replaced by a more practical realization: **For autonomous engineering tasks, reasoning capability matters far more than parameter count.**

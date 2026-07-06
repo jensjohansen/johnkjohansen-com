@@ -6,6 +6,7 @@ excerpt: "In 2024, the narrative was 'AI is coming for your job.' By early 2026,
 tags: ["Market Forces", "Gig Economy", "MindTheStore", "AI Augmentation", "Future of Work"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, the dust has started to settle on the great "AI Employment Anxiety" of the mid-2020s. 

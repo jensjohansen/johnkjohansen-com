@@ -6,6 +6,7 @@ description: "A practical, non-intimidating guide to Kubernetes networking for s
 tags: ["Kubernetes", "K8S", "Networking", "Infrastructure", "Architecture"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 When I talk to startup founders about [Kubernetes](./kubernetes-for-startups.md), the conversation usually hits a wall at "Networking." It’s seen as a black box—a complex mess of IP tables, virtual bridges, and overlay networks that requires a dedicated SRE team to manage.

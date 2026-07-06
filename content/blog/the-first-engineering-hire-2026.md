@@ -6,6 +6,7 @@ excerpt: "The traditional advice for your first engineering hire is outdated. In
 tags: ["Hiring Strategy", "Startup Leadership", "Venture Architecture", "Engineering Strategy"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 The most important, make-or-break decision a startup founder ever makes is the **First Engineering Hire**. 

@@ -6,6 +6,7 @@ excerpt: "In a world where AI can handle 90% of the implementation, what happens
 tags: ["Knowledge Work", "AI Transformation", "Future of Work", "Domain Expertise", "Dignified Income"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 The anxiety permeating the knowledge work sector in May 2026 often boils down to one fundamental, deeply personal question: "What will I do when the AI can do my job faster, cheaper, and without sleeping?"

@@ -6,6 +6,7 @@ description: "Why students and early-career engineers are uniquely positioned to
 tags: ["Career Advice", "Students", "AI Learning", "Future of Work", "MindTheStore"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By April 2026, many students are terrified. They see reports about AI [replacing junior roles](./ai-for-staff-augmentation-use-cases.md) and they wonder if their degree will be obsolete before they graduate.

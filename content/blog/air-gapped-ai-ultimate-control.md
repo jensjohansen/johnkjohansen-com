@@ -6,6 +6,7 @@ excerpt: "As AI becomes the core of the enterprise, the security of your models 
 tags: ["AI Security", "IP Protection", "Privacy", "Silicon Sovereignty", "Self-Hosted AI"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 In my 40+ years of engineering, the definition of "secure" has changed many times. We moved from the physical security of a mainframe room to the perimeter defense of firewalls, and eventually to the zero-trust models of the cloud. 

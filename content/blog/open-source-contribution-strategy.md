@@ -6,6 +6,7 @@ excerpt: "In 2024, most startups treated open source as a 'free library.' In 202
 tags: ["Open Source", "Startup Strategy", "Risk Management", "Engineering Leadership", "Kaigents"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By mid-February 2026, the "Open Source or SaaS" debate for startups has largely been settled. As I wrote in [Article #14](./open-source-ai-landscape-2026.md), the most resilient businesses are those that own their infrastructure and their intelligent tools. 

@@ -6,6 +6,7 @@ excerpt: "In 2024, running an LLM locally was a hobbyist's party trick. In early
 tags: ["Self-Hosted AI", "LLMs", "Qwen", "Benchmarks", "IP Protection"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By February 2026, the question "Can we run this locally?" has been replaced by "Why are we still paying for the API?"

@@ -6,6 +6,7 @@ excerpt: "In 2025, we learned how to build a single agent. In 2026, we are learn
 tags: ["AI Agents", "Multi-Agent Systems", "Engineering Management", "Kaigents", "Orchestration"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 By January 2026, the industry has largely solved the "Single Agent" problem. We know how to give a model a tool, a prompt, and a task. But as we move toward complex, autonomous workflows—like those in [Kairon Retail](./temu-playbook-collapse.md) or [MindTheStore](./ai-gig-economy-reshape-not-replace.md)—we are discovering that a collection of smart agents does not automatically make a smart team.

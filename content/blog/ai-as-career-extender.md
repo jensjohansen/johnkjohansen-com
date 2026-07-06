@@ -6,6 +6,7 @@ excerpt: "The common narrative is that AI is for the young and agile. The realit
 tags: ["Career Strategy", "Senior Professionals", "AI Transformation", "Domain Expertise", "Future of Work"]
 featured: false
 author: "John K. Johansen"
+heroImage: "/images/blog/default-blog-hero.png"
 ---
 
 There is a pervasive, almost uniform myth in May 2026 that artificial intelligence is exclusively a "Young Person's Game." 
