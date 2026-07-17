@@ -6,7 +6,7 @@ excerpt: "July 2026 was the most active month for simultaneous major AI lab rele
 tags: ["AI Strategy", "Enterprise AI", "OpenAI", "Anthropic", "Google", "Meta", "Microsoft"]
 featured: true
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/big-5-ai-july-2026-scorecard-hero.png"
 ---
 
 Five major AI labs shipped significant releases in July 2026 within roughly the same two-week window. This kind of simultaneous activity makes it difficult to evaluate any one announcement in isolation, because each release is partly a response to the others. I want to step back and give a practitioner's assessment of each — not what the press releases said, but what the releases mean for enterprise teams making infrastructure and strategy decisions.

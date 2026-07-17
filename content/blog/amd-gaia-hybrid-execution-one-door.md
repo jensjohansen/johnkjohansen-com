@@ -6,7 +6,7 @@ excerpt: "AMD's hybrid NPU+iGPU execution is no longer aspirational — Lemonade
 tags: ["AMD", "Ryzen AI", "Sovereign AI", "Self-Hosted AI", "NPU", "Lemonade Server", "AI Agents"]
 featured: true
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/amd-gaia-hybrid-execution-one-door-hero.png"
 ---
 
 When I wrote about AMD's Ryzen AI NPU in February 2026, the hybrid execution story was partly aspirational. The hardware was real — the XDNA 2 NPU in the Ryzen AI 300 series delivers genuine AI acceleration — but the software stack on Linux had gaps, the model support was limited, and the path from "I have an NPU" to "my AI agents are using it" required patience and manual configuration that most practitioners were not willing to invest.

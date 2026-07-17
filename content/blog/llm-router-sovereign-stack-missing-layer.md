@@ -6,7 +6,7 @@ excerpt: "Every organization with more than one LLM in production has a routing 
 tags: ["Sovereign AI", "AI Governance", "LLM", "AI Infrastructure", "AgOps", "Multi-Model AI", "AI Strategy"]
 featured: true
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/llm-router-sovereign-stack-missing-layer-hero.png"
 ---
 
 I wrote in early July about Mozilla.ai's Otari and the control plane gap — the problem that routing and governance decisions for LLM traffic are currently distributed across application code rather than centralized in a governance layer. That article covered the conceptual architecture. This one is more specific: what the routing problem actually looks like in practice, what the open-source options for solving it are, and how a model router fits into a sovereign AI stack alongside the inference infrastructure I have been writing about.

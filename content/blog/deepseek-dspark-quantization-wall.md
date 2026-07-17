@@ -6,7 +6,7 @@ excerpt: "DeepSeek released V4-Pro-DSpark: a 1.6T parameter MoE model with MIT l
 tags: ["DeepSeek", "Sovereign AI", "Self-Hosted AI", "LLM", "AI Inference", "Quantization", "Open Source"]
 featured: true
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/deepseek-dspark-quantization-wall-hero.png"
 ---
 
 DeepSeek released V4-Pro-DSpark under the MIT license, and the AI infrastructure community greeted it with enthusiasm that was partially warranted and partially the result of not reading past the headline numbers.

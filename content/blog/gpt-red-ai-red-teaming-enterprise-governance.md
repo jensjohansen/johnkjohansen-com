@@ -6,7 +6,7 @@ excerpt: "OpenAI disclosed GPT-Red: an internal LLM that uses self-play reinforc
 tags: ["AI Governance", "AI Security", "Enterprise AI", "AgOps", "Prompt Injection", "AI Safety", "Red Teaming"]
 featured: true
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/gpt-red-ai-red-teaming-enterprise-governance-hero.png"
 ---
 
 OpenAI disclosed GPT-Red this week, and the coverage has focused almost entirely on the wrong thing. The stories are about the impressive benchmark — GPT-Red successfully identified exploits in 84% of test scenarios compared to 13% for human red-teamers — and about the novel attack class it discovered: fake chain-of-thought, a technique that spoofs an LLM's internal reasoning process to manipulate its outputs.
