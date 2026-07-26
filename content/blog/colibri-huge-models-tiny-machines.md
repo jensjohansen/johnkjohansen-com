@@ -35,18 +35,25 @@ Colibrì's insight is that this sparsity is precisely the thing that makes a dif
 
 This is, in effect, demand paging for neural network weights. Instead of treating the model as a monolithic blob that must be fully resident, Colibrì treats it as a set of pages backed by storage, fetched lazily and only as the routing decisions require.
 
+### The Colibrì Memory Hierarchy
+
+```mermaid
+flowchart TD
+    subgraph RAM ["In-Memory (RAM)"]
+        Backbone["Dense Backbone (~17B params)<br/>int4 Quantized (~10GB)"]
+    end
+    
+    subgraph Disk ["Storage (NVMe SSD)"]
+        Experts["Expert Pool (700B+ params)<br/>Thousands of MoE Experts"]
+    end
+    
+    Backbone -->|Routes tokens to| Experts
+    Experts -->|Streams weights on-demand| Backbone
 ```
-┌─────────────────────────────┐
-│   Dense Backbone (~10GB)    │   ← Always resident, int4
-│   ~17B params, in RAM       │
-└──────────────┬──────────────┘
-               │ routes tokens to
-               ▼
-┌─────────────────────────────┐
-│   Expert Pool (700B+ params) │   ← Streamed on demand
-│   Stored on NVMe SSD         │
-└─────────────────────────────┘
-```
+
+**Architecture Summary:**
+- **In RAM**: The 17B-parameter dense backbone (int4) stays resident at all times (~10GB).
+- **On Disk**: The 700B+ parameter expert pool lives on NVMe, with specific experts paged into memory only when the router selects them.
 
 The engine itself is written in pure C, which keeps the runtime footprint small and avoids pulling in the dependency weight of a full Python/PyTorch stack. For a project whose entire premise is "run on constrained hardware," a minimal, self-contained binary is not a stylistic choice—it's a requirement.
 
