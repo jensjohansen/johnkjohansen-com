@@ -6,10 +6,10 @@ excerpt: "Colibrì is a lightweight, pure-C inference engine that keeps a small 
 tags: ["AI Infrastructure", "Silicon Sovereignty", "MoE", "Inference", "Self-Hosted AI"]
 featured: false
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/colibri-huge-models-tiny-machines-hero.png"
 ---
 
-In my 40+ years of engineering, I've watched the industry solve the same problem over and over: how do you run something bigger than the machine in front of you? Virtual memory did it for programs. Swap did it for RAM. Sharding did it for databases.
+Throughout my career, I've watched the industry solve the same problem over and over: how do you run something bigger than the machine in front of you? Virtual memory did it for programs. Swap did it for RAM. Sharding did it for databases.
 
 Now we have **Colibrì**, a lightweight, pure-C inference engine that applies the same old trick to the newest problem: running a 744-billion-parameter mixture-of-experts (MoE) model like GLM-5.2 on a machine with 25GB of RAM and no data-center GPU cluster in sight.
 
@@ -50,6 +50,15 @@ This is, in effect, demand paging for neural network weights. Instead of treatin
 
 The engine itself is written in pure C, which keeps the runtime footprint small and avoids pulling in the dependency weight of a full Python/PyTorch stack. For a project whose entire premise is "run on constrained hardware," a minimal, self-contained binary is not a stylistic choice—it's a requirement.
 
+It is worth noting that Colibrì is not the only player in this space. Projects like **PowerMoE** and early research into **expert-offloading via vLLM** have explored similar territory, though often with a focus on maximizing throughput across larger memory pools rather than absolute survival on a 24GB or 32GB consumer machine. Colibrì distinguishes itself by its extreme minimalism and its focus on the "dense backbone" separation that makes the disk-streaming feasible at such low RAM levels.
+
+## Hardware Matters: RAM, NPU, and Tmpfs
+
+While the baseline performance on a standard NVMe drive is slow, the hardware environment can significantly change the math. In my own testing on **AMD Ryzen AI** and **Intel Ultra** architectures, two specific optimizations move the needle:
+
+1.  **Soldered LPDDR5/LPDDR5x Memory**: Machines using high-frequency soldered memory (like the 7500MT/s or 8533MT/s pools in newer Ryzen AI laptops) provide a massive bandwidth advantage for the dense backbone's operations. Even though the experts are still streaming, the faster access to the resident 17B-parameter backbone and KV-cache helps stabilize the pipeline and improves the floor of the token generation speed.
+2.  **Tmpfs and NVMe RAID**: If you have a machine with 64GB or 128GB of RAM—still "tiny" compared to the hundreds of gigabytes usually required for a 744B model—you can mount a portion of the expert pool into a **tmpfs** (RAM disk). Streaming experts from a RAM-backed tmpfs or even a high-speed NVMe RAID array can push that 0.1 tokens/sec figure significantly higher, sometimes reaching a level that is actually usable for reading along in real-time.
+
 ## The Bottleneck Is Exactly Where You'd Expect
 
 There's no getting around the physics here: NVMe SSDs are fast relative to spinning disks, but they are orders of magnitude slower than RAM, and RAM is orders of magnitude slower than VRAM sitting next to a GPU's compute cores. Every time the router picks an expert that isn't already cached, Colibrì has to stall the forward pass and wait on an I/O read.
@@ -72,12 +81,6 @@ Consider what this architecture actually unlocks:
 This is the same argument I've made about [air-gapped AI](./air-gapped-ai-ultimate-control.md) and [silicon sovereignty](./ai-layoff-regret-sovereign-economics.md) more broadly: control over your compute is a strategic asset, not just an operational convenience. Colibrì extends that sovereignty to a class of models that, until now, were assumed to require infrastructure most people simply don't have.
 
 Slow and sovereign beats fast and rented, for a meaningful set of workloads.
-
-## What Comes Next: Project Trochilus
-
-Colibrì's disk-streaming approach solves the memory problem, but it leaves an obvious follow-up question on the table: what if the expert-streaming bottleneck could be narrowed by pushing more of the computation onto specialized silicon?
-
-That's the direction of **Project Trochilus**, a fork of Colibrì aimed at exploring NPU and GPU layer optimization on top of the same disk-streaming foundation. The idea is not to abandon the core insight—keep the dense backbone resident, stream experts on demand—but to accelerate the compute that happens once an expert's weights have landed in memory, using whatever NPU or GPU silicon is available on the host machine. If successful, this could meaningfully close the gap between "technically runnable" and "actually usable," without giving up the memory-efficiency story that makes Colibrì's approach possible in the first place.
 
 ## The Takeaway
 

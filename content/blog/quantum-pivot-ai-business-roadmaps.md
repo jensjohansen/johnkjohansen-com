@@ -6,7 +6,7 @@ excerpt: "Cloud providers are already hardening their platforms against quantum-
 tags: ["Quantum Computing", "Security", "AI Strategy", "Cloud Infrastructure", "Cryptography"]
 featured: false
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/quantum-pivot-ai-business-roadmaps-hero.png"
 ---
 
 For two decades, the security model underneath nearly every digital system has rested on a quiet bet: that certain math problems are too hard to solve. Factor a sufficiently large number. Compute a discrete logarithm. Given enough time and enough computers, these problems are theoretically solvable — but "enough time" has meant longer than the age of the universe. That gap between "theoretically breakable" and "practically unbreakable" is what security architects call **security by complexity**, and it is the foundation underneath TLS, VPNs, code signing, digital identity, and the entire blockchain ecosystem.

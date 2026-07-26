@@ -6,7 +6,7 @@ excerpt: "As the EU AI Act's full enforcement window arrives in August 2026, 'so
 tags: ["AI Governance", "Data Sovereignty", "EU AI Act", "Compliance", "Data Architecture"]
 featured: false
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/sovereign-ai-regulation-lockin-trap-hero.png"
 ---
 
 August 2026 is the date most compliance officers in Europe have circled on their calendars for two years. It marks the point at which key components of the EU AI Act move from "prepare for this" to "this is enforced." High-risk AI systems now need documented conformity assessments. Providers and deployers need audit trails that regulators can actually follow. And every organization using AI to make or influence consequential decisions needs to answer a question that used to be optional: *where did this data come from, and can you prove it?*

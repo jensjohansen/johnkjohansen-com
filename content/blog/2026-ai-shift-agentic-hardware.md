@@ -6,7 +6,7 @@ excerpt: "Inference was never the endgame. As AMD and Intel ship client-to-rack 
 tags: ["Agentic AI", "AMD", "Intel", "AI Compliance", "Sovereign AI", "Hardware Architecture"]
 featured: true
 author: "John K. Johansen"
-heroImage: "/images/blog/default-blog-hero.png"
+heroImage: "/images/blog/2026-ai-shift-agentic-hardware-hero.png"
 ---
 
 For the past three years, the industry's mental model of AI hardware has been remarkably static: bigger GPUs, more HBM, faster interconnects, all in service of a single metric — tokens per second of inference. That model is breaking down. Not because inference stopped mattering, but because it stopped being the workload that defines the ceiling.
