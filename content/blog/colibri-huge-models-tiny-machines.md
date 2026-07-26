@@ -37,19 +37,10 @@ This is, in effect, demand paging for neural network weights. Instead of treatin
 
 ### The Colibrì Memory Hierarchy
 
-```mermaid
-flowchart TD
-    subgraph RAM ["In-Memory (RAM)"]
-        Backbone["Dense Backbone (~17B params)<br/>int4 Quantized (~10GB)"]
-    end
-    
-    subgraph Disk ["Storage (NVMe SSD)"]
-        Experts["Expert Pool (700B+ params)<br/>Thousands of MoE Experts"]
-    end
-    
-    Backbone -->|Routes tokens to| Experts
-    Experts -->|Streams weights on-demand| Backbone
-```
+| Tier | Components | Storage Medium | Memory Impact |
+| :--- | :--- | :--- | :--- |
+| **Dense Backbone** | Always-active layers (~17B params) | **System RAM** | ~10GB (int4) |
+| **Expert Pool** | 700B+ Mixture-of-Experts parameters | **NVMe SSD** | 0GB resident |
 
 **Architecture Summary:**
 - **In RAM**: The 17B-parameter dense backbone (int4) stays resident at all times (~10GB).
