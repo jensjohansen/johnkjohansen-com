@@ -54,8 +54,8 @@ It is worth noting that Colibrì is not the only player in this space. Projects 
 
 While the baseline performance on a standard NVMe drive is slow, the hardware environment can significantly change the math. In my own testing on **AMD Ryzen AI** and **Intel Ultra** architectures, two specific optimizations move the needle:
 
-1.  **Soldered LPDDR5/LPDDR5x Memory**: Machines using high-frequency soldered memory (like the 7500MT/s or 8533MT/s pools in newer Ryzen AI laptops) provide a massive bandwidth advantage for the dense backbone's operations. Even though the experts are still streaming, the faster access to the resident 17B-parameter backbone and KV-cache helps stabilize the pipeline and improves the floor of the token generation speed.
-2.  **Tmpfs and NVMe RAID**: If you have a machine with 64GB or 128GB of RAM—still "tiny" compared to the hundreds of gigabytes usually required for a 744B model—you can mount a portion of the expert pool into a **tmpfs** (RAM disk). Streaming experts from a RAM-backed tmpfs or even a high-speed NVMe RAID array can push that 0.1 tokens/sec figure significantly higher, sometimes reaching a level that is actually usable for reading along in real-time.
+1. **Soldered LPDDR5/LPDDR5x Memory**: Machines using high-frequency soldered memory (like the 7500MT/s or 8533MT/s pools in newer Ryzen AI laptops) provide a massive bandwidth advantage for the dense backbone's operations. Even though the experts are still streaming, the faster access to the resident 17B-parameter backbone and KV-cache helps stabilize the pipeline and improves the floor of the token generation speed.
+2. **Tmpfs and NVMe RAID**: If you have a machine with 64GB or 128GB of RAM—still "tiny" compared to the hundreds of gigabytes usually required for a 744B model—you can mount a portion of the expert pool into a **tmpfs** (RAM disk). Streaming experts from a RAM-backed tmpfs or even a high-speed NVMe RAID array can push that 0.1 tokens/sec figure significantly higher, sometimes reaching a level that is actually usable for reading along in real-time.
 
 ## The Bottleneck Is Exactly Where You'd Expect
 
