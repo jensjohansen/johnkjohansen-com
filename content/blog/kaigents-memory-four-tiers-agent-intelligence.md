@@ -187,6 +187,8 @@ flowchart TD
     K1 -->|remove package| K3
 ```
 
+![Kaigents four-tier memory architecture diagram](/images/blog/kaigents-memory-four-tiers-diagram.png)
+
 The architecture is documented in detail in the [agent memory proposal](https://github.com/jensjohansen/kaigents/blob/main/docs/architecture/agent-memory-proposal.md). The implementation tracker with acceptance criteria for each milestone is in the [implementation tracker](https://github.com/jensjohansen/kaigents/blob/main/docs/implementation/kaigents-implementation-tracker.md).
 
 ---
